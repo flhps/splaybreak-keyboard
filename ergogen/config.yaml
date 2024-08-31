@@ -1,0 +1,109 @@
+# `U` is a predefined unit of measure that means 19.05mm, which is MX spacing
+meta:
+  engine: 4.1.0
+units:
+  pu: U + 2
+points:
+  zones:
+    matrix:
+      columns:
+        outer:
+          rows.bottom.skip: true
+          rows.top.skip: true
+        pinky:
+        ring.key:
+          stagger: 0.66U
+          splay: -5
+          spread: 1.075U
+        middle.key:
+          stagger: 0.25U
+          splay: -5
+          spread: 1.075U
+        index.key.stagger: -0.5U
+        inner.key.stagger: -0.2U
+      rows:
+        bottom.padding: U
+        home.padding: U
+        top.padding: U
+      rotate: 10
+      anchor:
+        # Shift the PCB slightly to the right and down, otherwise it's weirdly positioned outside of the main sheet in KiCad
+        shift: [100, -150]
+    thumb:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [0.75U, -1.25U]
+      columns:
+        tucky:
+          key.name: thumb_tucky
+        reachy:
+          key.spread: U
+          key.splay: -15
+          key.origin: [-0.5U, -0.7U]
+          key.name: thumb_reachy
+    square_center:
+      anchor:
+        ref: matrix_middle_bottom
+        shift: [0.2U, 0.1U]
+outlines:
+  keys:
+    - what: rectangle
+      where: -/square_center/
+      size: [1U, 1U]
+  raw:
+    - what: rectangle
+      where: -/square_center/
+      size: [1pu, 1pu]
+  rect:
+    - what: rectangle
+      where: square_center
+      size: [7U, 4.5U]
+  board:
+    - name: rect
+    - operation: add
+      name: raw
+      fillet: 0.5
+  control:
+    - name: board
+    - operation: stack
+      name: keys
+pcbs:
+  reversible_split:
+    template: kicad8
+    outlines:
+      main:
+        outline: board
+    footprints:
+      keys:
+        what: mx
+        where: -/square_center/
+        params:
+          from: GND
+          to: "{{name}}"
+          reverse: true
+          keycaps: true
+          hotswap: true
+      mcu:
+        what: mcu_nice_nano
+        where:
+          - ref: matrix_inner_home
+            shift: [1U + 3, 1U]
+            rotate: 0
+        params:
+          P7: matrix_pinky_top
+          P18: matrix_ring_top
+          P19: matrix_middle_top
+          P20: matrix_index_top
+          P21: matrix_inner_top
+          P15: matrix_pinky_home
+          P14: matrix_ring_home
+          P16: matrix_middle_home
+          P10: matrix_index_home
+          P1: matrix_inner_home
+          P2: matrix_pinky_bottom
+          P3: matrix_ring_bottom
+          P4: matrix_middle_bottom
+          P5: matrix_index_bottom
+          P6: matrix_inner_bottom
+          P8: thumb_tucky
+          P9: thumb_reachy
