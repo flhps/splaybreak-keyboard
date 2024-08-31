@@ -44,7 +44,7 @@ points:
     square_center:
       anchor:
         ref: matrix_middle_bottom
-        shift: [0.2U, 0.1U]
+        shift: [0.175U, 0.2U]
 outlines:
   keys:
     - what: rectangle
@@ -57,7 +57,7 @@ outlines:
   rect:
     - what: rectangle
       where: square_center
-      size: [7U, 4.5U]
+      size: [6.85U, 4.3U]
   board:
     - name: rect
     - operation: add
@@ -87,9 +87,10 @@ pcbs:
         what: mcu_nice_nano
         where:
           - ref: matrix_inner_home
-            shift: [1U + 3, 1U]
+            shift: [1U + 2, 1U + 3.5]
             rotate: 0
         params:
+          reversible: true
           P7: matrix_pinky_top
           P18: matrix_ring_top
           P19: matrix_middle_top
