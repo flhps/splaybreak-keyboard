@@ -19,45 +19,45 @@ points:
           stagger: 0.25U
           splay: -5
           spread: 1.075U
-        index.key.stagger: -0.5U
-        inner.key.stagger: -0.2U
+        index.key.stagger: -0.4U
+        inner.key.stagger: -0.1U
       rows:
         bottom.padding: U
         home.padding: U
         top.padding: U
-      rotate: 12
+      rotate: 7
       anchor:
         # Shift the PCB slightly to the right and down, otherwise it's weirdly positioned outside of the main sheet in KiCad
         shift: [100, -150]
     thumb:
       anchor:
         ref: matrix_index_bottom
-        shift: [0.75U, -1.25U]
+        shift: [0.5U, -1.15U]
       columns:
         tucky:
           key.name: thumb_tucky
+          key.splay: -5
         reachy:
           key.spread: U
-          key.splay: -15
+          key.splay: 0
           key.origin: [-0.5U, -0.7U]
           key.name: thumb_reachy
-    square_center:
-      anchor:
-        ref: matrix_middle_bottom
-        shift: [0.175U, 0.2U]
 outlines:
   keys:
     - what: rectangle
-      where: -/square_center/
+      where: true
       size: [1U, 1U]
   raw:
     - what: rectangle
-      where: -/square_center/
+      where: true
       size: [1pu, 1pu]
   rect:
     - what: rectangle
-      where: square_center
-      size: [6.85U, 4.3U]
+      where:
+        - ref: matrix_middle_bottom
+          shift: [-0.5U, 0.085U]
+          rotate: 5
+      size: [6.7U, 4.5U]
       fillet: 1
   board:
     - name: rect
@@ -77,7 +77,7 @@ pcbs:
     footprints:
       keys:
         what: mx
-        where: -/square_center/
+        where: true
         params:
           from: GND
           to: "{{name}}"

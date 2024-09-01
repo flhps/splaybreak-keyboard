@@ -140,7 +140,7 @@
   
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 125.040796 107.2972592 12)
+      (at 115.2134057 117.7869842 7)
 
       
       (fp_text reference "S1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -176,8 +176,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 2 "matrix_outer_home"))
+        (pad 1 smd rect (at -7.085 -2.54 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 2 "matrix_outer_home"))
         
         
         
@@ -185,14 +185,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 2 "matrix_outer_home"))
+        (pad 1 smd rect (at 7.085 -2.54 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 2 "matrix_outer_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 147.5863181 121.9806489 12)
+      (at 136.3933936 134.3794709 7)
 
       
       (fp_text reference "S2" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -228,8 +228,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 3 "matrix_pinky_bottom"))
+        (pad 1 smd rect (at -7.085 -2.54 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 3 "matrix_pinky_bottom"))
         
         
         
@@ -237,14 +237,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 3 "matrix_pinky_bottom"))
+        (pad 1 smd rect (at 7.085 -2.54 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 3 "matrix_pinky_bottom"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 143.6256004 103.3469371 12)
+      (at 134.0717826 115.4714667 7)
 
       
       (fp_text reference "S3" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -280,8 +280,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 4 "matrix_pinky_home"))
+        (pad 1 smd rect (at -7.085 -2.54 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 4 "matrix_pinky_home"))
         
         
         
@@ -289,14 +289,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 4 "matrix_pinky_home"))
+        (pad 1 smd rect (at 7.085 -2.54 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 4 "matrix_pinky_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 139.6648827 84.7132253 12)
+      (at 131.7501716 96.5634625 7)
 
       
       (fp_text reference "S4" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -332,8 +332,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 12) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 5 "matrix_pinky_top"))
+        (pad 1 smd rect (at -7.085 -2.54 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 7) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 5 "matrix_pinky_top"))
         
         
         
@@ -341,14 +341,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 12) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 5 "matrix_pinky_top"))
+        (pad 1 smd rect (at 7.085 -2.54 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 7) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 5 "matrix_pinky_top"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 165.4693274 105.3256096 5)
+      (at 155.6599349 119.346416 0)
 
       
       (fp_text reference "S5" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -384,8 +384,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "matrix_ring_bottom"))
+        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "matrix_ring_bottom"))
         
         
         
@@ -393,14 +393,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 6 "matrix_ring_bottom"))
+        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 6 "matrix_ring_bottom"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 163.8090105 86.3481006 5)
+      (at 155.6599349 100.296416 0)
 
       
       (fp_text reference "S6" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -436,8 +436,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 7 "matrix_ring_home"))
+        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 7 "matrix_ring_home"))
         
         
         
@@ -445,14 +445,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 7 "matrix_ring_home"))
+        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 7 "matrix_ring_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 162.1486936 67.3705916 5)
+      (at 155.6599349 81.246416 0)
 
       
       (fp_text reference "S7" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -488,8 +488,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 8 "matrix_ring_top"))
+        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 8 "matrix_ring_top"))
         
         
         
@@ -497,14 +497,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 8 "matrix_ring_top"))
+        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 8 "matrix_ring_top"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 185.4550704 98.7963917 0)
+      (at 176.138685 114.5839161 -5)
 
       
       (fp_text reference "S8" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -540,8 +540,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 9 "matrix_middle_bottom"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 9 "matrix_middle_bottom"))
         
         
         
@@ -549,14 +549,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 9 "matrix_middle_bottom"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 9 "matrix_middle_bottom"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 185.4550704 79.7463917 0)
+      (at 177.7990019 95.606407 -5)
 
       
       (fp_text reference "S9" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -592,8 +592,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 10 "matrix_middle_home"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 10 "matrix_middle_home"))
         
         
         
@@ -601,14 +601,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 10 "matrix_middle_home"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 10 "matrix_middle_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 185.4550704 60.6963917 0)
+      (at 179.4593187 76.628898 -5)
 
       
       (fp_text reference "S10" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -644,8 +644,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "matrix_middle_top"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "matrix_middle_top"))
         
         
         
@@ -653,14 +653,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 11 "matrix_middle_top"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 11 "matrix_middle_top"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 204.4550703 108.3213917 0)
+      (at 194.4022573 123.8308787 -5)
 
       
       (fp_text reference "S11" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -696,8 +696,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 12 "matrix_index_bottom"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 12 "matrix_index_bottom"))
         
         
         
@@ -705,14 +705,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 12 "matrix_index_bottom"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 12 "matrix_index_bottom"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 204.4550703 89.2713917 0)
+      (at 196.0625742 104.8533697 -5)
 
       
       (fp_text reference "S12" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -748,8 +748,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 13 "matrix_index_home"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 13 "matrix_index_home"))
         
         
         
@@ -757,14 +757,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 13 "matrix_index_home"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 13 "matrix_index_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 204.4550703 70.2213917 0)
+      (at 197.7228911 85.8758607 -5)
 
       
       (fp_text reference "S13" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -800,8 +800,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 14 "matrix_index_top"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 14 "matrix_index_top"))
         
         
         
@@ -809,14 +809,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 14 "matrix_index_top"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 14 "matrix_index_top"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 223.4550704 112.1313917 0)
+      (at 213.163925 127.3845887 -5)
 
       
       (fp_text reference "S14" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -852,8 +852,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 15 "matrix_inner_bottom"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 15 "matrix_inner_bottom"))
         
         
         
@@ -861,14 +861,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 15 "matrix_inner_bottom"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 15 "matrix_inner_bottom"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 223.4550704 93.0813917 0)
+      (at 214.8242418 108.4070797 -5)
 
       
       (fp_text reference "S15" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -904,8 +904,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "matrix_inner_home"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "matrix_inner_home"))
         
         
         
@@ -913,14 +913,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 16 "matrix_inner_home"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 16 "matrix_inner_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 223.4550703 74.0313917 0)
+      (at 216.4845587 89.4295707 -5)
 
       
       (fp_text reference "S16" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -956,8 +956,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "matrix_inner_top"))
+        (pad 1 smd rect (at -7.085 -2.54 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -5) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "matrix_inner_top"))
         
         
         
@@ -965,14 +965,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 17 "matrix_inner_top"))
+        (pad 1 smd rect (at 7.085 -2.54 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -5) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 17 "matrix_inner_top"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 218.74257029999998 132.1338917 0)
+      (at 201.9816474 146.4851725 -10)
 
       
       (fp_text reference "S17" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1008,8 +1008,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "thumb_tucky"))
+        (pad 1 smd rect (at -7.085 -2.54 -10) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -10) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "thumb_tucky"))
         
         
         
@@ -1017,14 +1017,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 18 "thumb_tucky"))
+        (pad 1 smd rect (at 7.085 -2.54 -10) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -10) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 18 "thumb_tucky"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 240.91936579999998 135.0535222 -15)
+      (at 220.74223510000002 149.7931703 -10)
 
       
       (fp_text reference "S18" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1060,8 +1060,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 -15) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at 5.842 -5.08 -15) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "thumb_reachy"))
+        (pad 1 smd rect (at -7.085 -2.54 -10) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at 5.842 -5.08 -10) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "thumb_reachy"))
         
         
         
@@ -1069,8 +1069,8 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 -15) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
-        (pad 2 smd rect (at -5.842 -5.08 -15) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 19 "thumb_reachy"))
+        (pad 1 smd rect (at 7.085 -2.54 -10) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 1 "GND"))
+        (pad 2 smd rect (at -5.842 -5.08 -10) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 19 "thumb_reachy"))
         )
         
 
@@ -1078,9 +1078,9 @@
     
   (footprint "ceoloide:mcu_nice_nano"
     (layer "F.Cu")
-    (at 244.25507040000002 70.5313917 0)
+    (at 237.5104535 87.75572869999999 -5)
     (property "Reference" "MCU1"
-      (at 0 -15 0)
+      (at 0 -15 -5)
       (layer "F.SilkS")
       hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1101,15 +1101,15 @@
     
     
     
-    (pad "24" thru_hole circle (at -7.62 -12.7 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 26 "MCU1_24"))
-    (pad "1" thru_hole circle (at 7.62 -12.7 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 27 "MCU1_1"))
+    (pad "24" thru_hole circle (at -7.62 -12.7 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 26 "MCU1_24"))
+    (pad "1" thru_hole circle (at 7.62 -12.7 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 27 "MCU1_1"))
       
     
-    (pad "101" thru_hole circle (at 3.4 -12.7 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 2 "matrix_outer_home"))
-    (pad "124" thru_hole circle (at -3.4 -12.7 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 20 "RAW"))
+    (pad "101" thru_hole circle (at 3.4 -12.7 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 2 "matrix_outer_home"))
+    (pad "124" thru_hole circle (at -3.4 -12.7 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 20 "RAW"))
       
     
-    (pad "24" smd custom (at -5.5 -12.7 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 26 "MCU1_24")
+    (pad "24" smd custom (at -5.5 -12.7 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 26 "MCU1_24")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1117,7 +1117,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "124" smd custom (at -4.775 -12.7 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 20 "RAW")
+    (pad "124" smd custom (at -4.775 -12.7 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 20 "RAW")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1127,7 +1127,7 @@
     ))
 
     
-    (pad "101" smd custom (at 4.775 -12.7 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 2 "matrix_outer_home")
+    (pad "101" smd custom (at 4.775 -12.7 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 2 "matrix_outer_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1135,7 +1135,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "1" smd custom (at 5.5 -12.7 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 27 "MCU1_1")
+    (pad "1" smd custom (at 5.5 -12.7 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 27 "MCU1_1")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1145,7 +1145,7 @@
     ))
 
     
-    (pad "24" smd custom (at -5.5 -12.7 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 26 "MCU1_24")
+    (pad "24" smd custom (at -5.5 -12.7 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 26 "MCU1_24")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1154,7 +1154,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "101" smd custom (at -4.775 -12.7 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 2 "matrix_outer_home")
+    (pad "101" smd custom (at -4.775 -12.7 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 2 "matrix_outer_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1164,7 +1164,7 @@
     ))
 
     
-    (pad "124" smd custom (at 4.775 -12.7 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 20 "RAW")
+    (pad "124" smd custom (at 4.775 -12.7 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 20 "RAW")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1172,104 +1172,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "1" smd custom (at 5.5 -12.7 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 27 "MCU1_1")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.5 0.625) (xy -0.25 0.625) (xy 0.25 0) (xy -0.25 -0.625) (xy -0.5 -0.625)
-      ) (width 0) (fill yes))
-    ))
-        
-    
-    (fp_text user "matrix_outer_home" (at -3.262 -13.5 0) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "RAW" (at 3.262 -13.5 0) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_outer_home" (at -3.262 -13.5 180) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "RAW" (at 3.262 -13.5 180) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
-    
-    (pad "23" thru_hole circle (at -7.62 -10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 28 "MCU1_23"))
-    (pad "2" thru_hole circle (at 7.62 -10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 29 "MCU1_2"))
-      
-    
-    (pad "102" thru_hole circle (at 3.4 -10.16 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 5 "matrix_pinky_top"))
-    (pad "123" thru_hole circle (at -3.4 -10.16 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 1 "GND"))
-      
-    
-    (pad "23" smd custom (at -5.5 -10.16 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 28 "MCU1_23")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
-      ) (width 0) (fill yes))
-    ))
-    (pad "123" smd custom (at -4.775 -10.16 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
-      ) (width 0) (fill yes))
-    ))
-
-    
-    (pad "102" smd custom (at 4.775 -10.16 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 5 "matrix_pinky_top")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
-      ) (width 0) (fill yes))
-    ))
-    (pad "2" smd custom (at 5.5 -10.16 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 29 "MCU1_2")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
-      ) (width 0) (fill yes))
-    ))
-
-    
-    (pad "23" smd custom (at -5.5 -10.16 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 28 "MCU1_23")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.5 0.625) (xy -0.25 0.625) (xy 0.25 0) (xy -0.25 -0.625) (xy -0.5 -0.625)
-      ) (width 0) (fill yes))
-    ))
-
-    (pad "102" smd custom (at -4.775 -10.16 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 5 "matrix_pinky_top")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
-      ) (width 0) (fill yes))
-    ))
-
-    
-    (pad "123" smd custom (at 4.775 -10.16 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND")
-      (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-          (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
-      ) (width 0) (fill yes))
-    ))
-    (pad "2" smd custom (at 5.5 -10.16 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 29 "MCU1_2")
+    (pad "1" smd custom (at 5.5 -12.7 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 27 "MCU1_1")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1279,31 +1182,31 @@
     ))
         
     
-    (fp_text user "matrix_pinky_top" (at -3.262 -10.96 0) (layer "F.Fab")
+    (fp_text user "matrix_outer_home" (at -3.262 -13.5 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "GND" (at 3.262 -10.96 0) (layer "F.Fab")
+    (fp_text user "RAW" (at 3.262 -13.5 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_pinky_top" (at -3.262 -10.96 180) (layer "B.Fab")
+    (fp_text user "matrix_outer_home" (at -3.262 -13.5 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "GND" (at 3.262 -10.96 180) (layer "B.Fab")
+    (fp_text user "RAW" (at 3.262 -13.5 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "22" thru_hole circle (at -7.62 -7.619999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 30 "MCU1_22"))
-    (pad "3" thru_hole circle (at 7.62 -7.619999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 31 "MCU1_3"))
+    (pad "23" thru_hole circle (at -7.62 -10.16 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 28 "MCU1_23"))
+    (pad "2" thru_hole circle (at 7.62 -10.16 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 29 "MCU1_2"))
       
     
-    (pad "103" thru_hole circle (at 3.4 -7.619999999999999 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 1 "GND"))
-    (pad "122" thru_hole circle (at -3.4 -7.619999999999999 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 21 "RST"))
+    (pad "102" thru_hole circle (at 3.4 -10.16 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 5 "matrix_pinky_top"))
+    (pad "123" thru_hole circle (at -3.4 -10.16 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 1 "GND"))
       
     
-    (pad "22" smd custom (at -5.5 -7.619999999999999 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 30 "MCU1_22")
+    (pad "23" smd custom (at -5.5 -10.16 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 28 "MCU1_23")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1311,7 +1214,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "122" smd custom (at -4.775 -7.619999999999999 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 21 "RST")
+    (pad "123" smd custom (at -4.775 -10.16 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1321,7 +1224,7 @@
     ))
 
     
-    (pad "103" smd custom (at 4.775 -7.619999999999999 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND")
+    (pad "102" smd custom (at 4.775 -10.16 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 5 "matrix_pinky_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1329,7 +1232,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "3" smd custom (at 5.5 -7.619999999999999 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 31 "MCU1_3")
+    (pad "2" smd custom (at 5.5 -10.16 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 29 "MCU1_2")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1339,7 +1242,7 @@
     ))
 
     
-    (pad "22" smd custom (at -5.5 -7.619999999999999 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 30 "MCU1_22")
+    (pad "23" smd custom (at -5.5 -10.16 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 28 "MCU1_23")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1348,7 +1251,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "103" smd custom (at -4.775 -7.619999999999999 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND")
+    (pad "102" smd custom (at -4.775 -10.16 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 5 "matrix_pinky_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1358,7 +1261,7 @@
     ))
 
     
-    (pad "122" smd custom (at 4.775 -7.619999999999999 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 21 "RST")
+    (pad "123" smd custom (at 4.775 -10.16 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1366,7 +1269,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "3" smd custom (at 5.5 -7.619999999999999 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 31 "MCU1_3")
+    (pad "2" smd custom (at 5.5 -10.16 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 29 "MCU1_2")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1376,31 +1279,31 @@
     ))
         
     
-    (fp_text user "GND" (at -3.262 -8.42 0) (layer "F.Fab")
+    (fp_text user "matrix_pinky_top" (at -3.262 -10.96 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "RST" (at 3.262 -8.42 0) (layer "F.Fab")
+    (fp_text user "GND" (at 3.262 -10.96 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "GND" (at -3.262 -8.42 180) (layer "B.Fab")
+    (fp_text user "matrix_pinky_top" (at -3.262 -10.96 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "RST" (at 3.262 -8.42 180) (layer "B.Fab")
+    (fp_text user "GND" (at 3.262 -10.96 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "21" thru_hole circle (at -7.62 -5.079999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 32 "MCU1_21"))
-    (pad "4" thru_hole circle (at 7.62 -5.079999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 33 "MCU1_4"))
+    (pad "22" thru_hole circle (at -7.62 -7.619999999999999 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 30 "MCU1_22"))
+    (pad "3" thru_hole circle (at 7.62 -7.619999999999999 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 31 "MCU1_3"))
       
     
-    (pad "104" thru_hole circle (at 3.4 -5.079999999999999 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 1 "GND"))
-    (pad "121" thru_hole circle (at -3.4 -5.079999999999999 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 22 "VCC"))
+    (pad "103" thru_hole circle (at 3.4 -7.619999999999999 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 1 "GND"))
+    (pad "122" thru_hole circle (at -3.4 -7.619999999999999 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 21 "RST"))
       
     
-    (pad "21" smd custom (at -5.5 -5.079999999999999 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 32 "MCU1_21")
+    (pad "22" smd custom (at -5.5 -7.619999999999999 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 30 "MCU1_22")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1408,7 +1311,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "121" smd custom (at -4.775 -5.079999999999999 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 22 "VCC")
+    (pad "122" smd custom (at -4.775 -7.619999999999999 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 21 "RST")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1418,7 +1321,7 @@
     ))
 
     
-    (pad "104" smd custom (at 4.775 -5.079999999999999 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND")
+    (pad "103" smd custom (at 4.775 -7.619999999999999 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1426,7 +1329,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "4" smd custom (at 5.5 -5.079999999999999 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 33 "MCU1_4")
+    (pad "3" smd custom (at 5.5 -7.619999999999999 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 31 "MCU1_3")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1436,7 +1339,7 @@
     ))
 
     
-    (pad "21" smd custom (at -5.5 -5.079999999999999 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 32 "MCU1_21")
+    (pad "22" smd custom (at -5.5 -7.619999999999999 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 30 "MCU1_22")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1445,7 +1348,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "104" smd custom (at -4.775 -5.079999999999999 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND")
+    (pad "103" smd custom (at -4.775 -7.619999999999999 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1455,7 +1358,7 @@
     ))
 
     
-    (pad "121" smd custom (at 4.775 -5.079999999999999 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 22 "VCC")
+    (pad "122" smd custom (at 4.775 -7.619999999999999 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 21 "RST")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1463,7 +1366,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "4" smd custom (at 5.5 -5.079999999999999 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 33 "MCU1_4")
+    (pad "3" smd custom (at 5.5 -7.619999999999999 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 31 "MCU1_3")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1473,31 +1376,31 @@
     ))
         
     
-    (fp_text user "GND" (at -3.262 -5.88 0) (layer "F.Fab")
+    (fp_text user "GND" (at -3.262 -8.42 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "VCC" (at 3.262 -5.88 0) (layer "F.Fab")
+    (fp_text user "RST" (at 3.262 -8.42 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "GND" (at -3.262 -5.88 180) (layer "B.Fab")
+    (fp_text user "GND" (at -3.262 -8.42 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "VCC" (at 3.262 -5.88 180) (layer "B.Fab")
+    (fp_text user "RST" (at 3.262 -8.42 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "20" thru_hole circle (at -7.62 -2.539999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 34 "MCU1_20"))
-    (pad "5" thru_hole circle (at 7.62 -2.539999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 35 "MCU1_5"))
+    (pad "21" thru_hole circle (at -7.62 -5.079999999999999 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 32 "MCU1_21"))
+    (pad "4" thru_hole circle (at 7.62 -5.079999999999999 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 33 "MCU1_4"))
       
     
-    (pad "105" thru_hole circle (at 3.4 -2.539999999999999 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 4 "matrix_pinky_home"))
-    (pad "120" thru_hole circle (at -3.4 -2.539999999999999 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 17 "matrix_inner_top"))
+    (pad "104" thru_hole circle (at 3.4 -5.079999999999999 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 1 "GND"))
+    (pad "121" thru_hole circle (at -3.4 -5.079999999999999 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 22 "VCC"))
       
     
-    (pad "20" smd custom (at -5.5 -2.539999999999999 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 34 "MCU1_20")
+    (pad "21" smd custom (at -5.5 -5.079999999999999 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 32 "MCU1_21")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1505,7 +1408,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "120" smd custom (at -4.775 -2.539999999999999 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 17 "matrix_inner_top")
+    (pad "121" smd custom (at -4.775 -5.079999999999999 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 22 "VCC")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1515,7 +1418,7 @@
     ))
 
     
-    (pad "105" smd custom (at 4.775 -2.539999999999999 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 4 "matrix_pinky_home")
+    (pad "104" smd custom (at 4.775 -5.079999999999999 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1523,7 +1426,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "5" smd custom (at 5.5 -2.539999999999999 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 35 "MCU1_5")
+    (pad "4" smd custom (at 5.5 -5.079999999999999 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 33 "MCU1_4")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1533,7 +1436,7 @@
     ))
 
     
-    (pad "20" smd custom (at -5.5 -2.539999999999999 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 34 "MCU1_20")
+    (pad "21" smd custom (at -5.5 -5.079999999999999 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 32 "MCU1_21")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1542,7 +1445,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "105" smd custom (at -4.775 -2.539999999999999 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 4 "matrix_pinky_home")
+    (pad "104" smd custom (at -4.775 -5.079999999999999 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1552,7 +1455,7 @@
     ))
 
     
-    (pad "120" smd custom (at 4.775 -2.539999999999999 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 17 "matrix_inner_top")
+    (pad "121" smd custom (at 4.775 -5.079999999999999 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 22 "VCC")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1560,7 +1463,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "5" smd custom (at 5.5 -2.539999999999999 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "MCU1_5")
+    (pad "4" smd custom (at 5.5 -5.079999999999999 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 33 "MCU1_4")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1570,31 +1473,31 @@
     ))
         
     
-    (fp_text user "matrix_pinky_home" (at -3.262 -3.34 0) (layer "F.Fab")
+    (fp_text user "GND" (at -3.262 -5.88 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "matrix_inner_top" (at 3.262 -3.34 0) (layer "F.Fab")
+    (fp_text user "VCC" (at 3.262 -5.88 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_pinky_home" (at -3.262 -3.34 180) (layer "B.Fab")
+    (fp_text user "GND" (at -3.262 -5.88 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "matrix_inner_top" (at 3.262 -3.34 180) (layer "B.Fab")
+    (fp_text user "VCC" (at 3.262 -5.88 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "19" thru_hole circle (at -7.62 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 36 "MCU1_19"))
-    (pad "6" thru_hole circle (at 7.62 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 37 "MCU1_6"))
+    (pad "20" thru_hole circle (at -7.62 -2.539999999999999 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 34 "MCU1_20"))
+    (pad "5" thru_hole circle (at 7.62 -2.539999999999999 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 35 "MCU1_5"))
       
     
-    (pad "106" thru_hole circle (at 3.4 0 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 3 "matrix_pinky_bottom"))
-    (pad "119" thru_hole circle (at -3.4 0 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 16 "matrix_inner_home"))
+    (pad "105" thru_hole circle (at 3.4 -2.539999999999999 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 4 "matrix_pinky_home"))
+    (pad "120" thru_hole circle (at -3.4 -2.539999999999999 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 17 "matrix_inner_top"))
       
     
-    (pad "19" smd custom (at -5.5 0 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 36 "MCU1_19")
+    (pad "20" smd custom (at -5.5 -2.539999999999999 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 34 "MCU1_20")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1602,7 +1505,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "119" smd custom (at -4.775 0 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 16 "matrix_inner_home")
+    (pad "120" smd custom (at -4.775 -2.539999999999999 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 17 "matrix_inner_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1612,7 +1515,7 @@
     ))
 
     
-    (pad "106" smd custom (at 4.775 0 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 3 "matrix_pinky_bottom")
+    (pad "105" smd custom (at 4.775 -2.539999999999999 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 4 "matrix_pinky_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1620,7 +1523,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "6" smd custom (at 5.5 0 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 37 "MCU1_6")
+    (pad "5" smd custom (at 5.5 -2.539999999999999 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 35 "MCU1_5")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1630,7 +1533,7 @@
     ))
 
     
-    (pad "19" smd custom (at -5.5 0 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 36 "MCU1_19")
+    (pad "20" smd custom (at -5.5 -2.539999999999999 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 34 "MCU1_20")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1639,7 +1542,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "106" smd custom (at -4.775 0 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "matrix_pinky_bottom")
+    (pad "105" smd custom (at -4.775 -2.539999999999999 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 4 "matrix_pinky_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1649,7 +1552,7 @@
     ))
 
     
-    (pad "119" smd custom (at 4.775 0 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 16 "matrix_inner_home")
+    (pad "120" smd custom (at 4.775 -2.539999999999999 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 17 "matrix_inner_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1657,7 +1560,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "6" smd custom (at 5.5 0 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 37 "MCU1_6")
+    (pad "5" smd custom (at 5.5 -2.539999999999999 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "MCU1_5")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1667,31 +1570,31 @@
     ))
         
     
-    (fp_text user "matrix_pinky_bottom" (at -3.262 -0.8000000000000007 0) (layer "F.Fab")
+    (fp_text user "matrix_pinky_home" (at -3.262 -3.34 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "matrix_inner_home" (at 3.262 -0.8000000000000007 0) (layer "F.Fab")
+    (fp_text user "matrix_inner_top" (at 3.262 -3.34 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_pinky_bottom" (at -3.262 -0.8000000000000007 180) (layer "B.Fab")
+    (fp_text user "matrix_pinky_home" (at -3.262 -3.34 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "matrix_inner_home" (at 3.262 -0.8000000000000007 180) (layer "B.Fab")
+    (fp_text user "matrix_inner_top" (at 3.262 -3.34 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "18" thru_hole circle (at -7.62 2.540000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 38 "MCU1_18"))
-    (pad "7" thru_hole circle (at 7.62 2.540000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 39 "MCU1_7"))
+    (pad "19" thru_hole circle (at -7.62 0 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 36 "MCU1_19"))
+    (pad "6" thru_hole circle (at 7.62 0 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 37 "MCU1_6"))
       
     
-    (pad "107" thru_hole circle (at 3.4 2.540000000000001 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 8 "matrix_ring_top"))
-    (pad "118" thru_hole circle (at -3.4 2.540000000000001 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 15 "matrix_inner_bottom"))
+    (pad "106" thru_hole circle (at 3.4 0 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 3 "matrix_pinky_bottom"))
+    (pad "119" thru_hole circle (at -3.4 0 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 16 "matrix_inner_home"))
       
     
-    (pad "18" smd custom (at -5.5 2.540000000000001 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 38 "MCU1_18")
+    (pad "19" smd custom (at -5.5 0 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 36 "MCU1_19")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1699,7 +1602,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "118" smd custom (at -4.775 2.540000000000001 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 15 "matrix_inner_bottom")
+    (pad "119" smd custom (at -4.775 0 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 16 "matrix_inner_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1709,7 +1612,7 @@
     ))
 
     
-    (pad "107" smd custom (at 4.775 2.540000000000001 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 8 "matrix_ring_top")
+    (pad "106" smd custom (at 4.775 0 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 3 "matrix_pinky_bottom")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1717,7 +1620,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "7" smd custom (at 5.5 2.540000000000001 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 39 "MCU1_7")
+    (pad "6" smd custom (at 5.5 0 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 37 "MCU1_6")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1727,7 +1630,7 @@
     ))
 
     
-    (pad "18" smd custom (at -5.5 2.540000000000001 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 38 "MCU1_18")
+    (pad "19" smd custom (at -5.5 0 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 36 "MCU1_19")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1736,7 +1639,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "107" smd custom (at -4.775 2.540000000000001 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 8 "matrix_ring_top")
+    (pad "106" smd custom (at -4.775 0 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "matrix_pinky_bottom")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1746,7 +1649,7 @@
     ))
 
     
-    (pad "118" smd custom (at 4.775 2.540000000000001 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 15 "matrix_inner_bottom")
+    (pad "119" smd custom (at 4.775 0 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 16 "matrix_inner_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1754,7 +1657,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "7" smd custom (at 5.5 2.540000000000001 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 39 "MCU1_7")
+    (pad "6" smd custom (at 5.5 0 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 37 "MCU1_6")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1764,31 +1667,31 @@
     ))
         
     
-    (fp_text user "matrix_ring_top" (at -3.262 1.7400000000000002 0) (layer "F.Fab")
+    (fp_text user "matrix_pinky_bottom" (at -3.262 -0.8000000000000007 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "matrix_inner_bottom" (at 3.262 1.7400000000000002 0) (layer "F.Fab")
+    (fp_text user "matrix_inner_home" (at 3.262 -0.8000000000000007 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_ring_top" (at -3.262 1.7400000000000002 180) (layer "B.Fab")
+    (fp_text user "matrix_pinky_bottom" (at -3.262 -0.8000000000000007 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "matrix_inner_bottom" (at 3.262 1.7400000000000002 180) (layer "B.Fab")
+    (fp_text user "matrix_inner_home" (at 3.262 -0.8000000000000007 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "17" thru_hole circle (at -7.62 5.080000000000002 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 40 "MCU1_17"))
-    (pad "8" thru_hole circle (at 7.62 5.080000000000002 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 41 "MCU1_8"))
+    (pad "18" thru_hole circle (at -7.62 2.540000000000001 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 38 "MCU1_18"))
+    (pad "7" thru_hole circle (at 7.62 2.540000000000001 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 39 "MCU1_7"))
       
     
-    (pad "108" thru_hole circle (at 3.4 5.080000000000002 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 7 "matrix_ring_home"))
-    (pad "117" thru_hole circle (at -3.4 5.080000000000002 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 17 "matrix_inner_top"))
+    (pad "107" thru_hole circle (at 3.4 2.540000000000001 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 8 "matrix_ring_top"))
+    (pad "118" thru_hole circle (at -3.4 2.540000000000001 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 15 "matrix_inner_bottom"))
       
     
-    (pad "17" smd custom (at -5.5 5.080000000000002 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 40 "MCU1_17")
+    (pad "18" smd custom (at -5.5 2.540000000000001 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 38 "MCU1_18")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1796,7 +1699,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "117" smd custom (at -4.775 5.080000000000002 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 17 "matrix_inner_top")
+    (pad "118" smd custom (at -4.775 2.540000000000001 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 15 "matrix_inner_bottom")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1806,7 +1709,7 @@
     ))
 
     
-    (pad "108" smd custom (at 4.775 5.080000000000002 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 7 "matrix_ring_home")
+    (pad "107" smd custom (at 4.775 2.540000000000001 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 8 "matrix_ring_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1814,7 +1717,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "8" smd custom (at 5.5 5.080000000000002 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 41 "MCU1_8")
+    (pad "7" smd custom (at 5.5 2.540000000000001 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 39 "MCU1_7")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1824,7 +1727,7 @@
     ))
 
     
-    (pad "17" smd custom (at -5.5 5.080000000000002 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 40 "MCU1_17")
+    (pad "18" smd custom (at -5.5 2.540000000000001 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 38 "MCU1_18")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1833,7 +1736,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "108" smd custom (at -4.775 5.080000000000002 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 7 "matrix_ring_home")
+    (pad "107" smd custom (at -4.775 2.540000000000001 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 8 "matrix_ring_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1843,7 +1746,7 @@
     ))
 
     
-    (pad "117" smd custom (at 4.775 5.080000000000002 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 17 "matrix_inner_top")
+    (pad "118" smd custom (at 4.775 2.540000000000001 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 15 "matrix_inner_bottom")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1851,7 +1754,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "8" smd custom (at 5.5 5.080000000000002 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 41 "MCU1_8")
+    (pad "7" smd custom (at 5.5 2.540000000000001 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 39 "MCU1_7")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1861,31 +1764,31 @@
     ))
         
     
-    (fp_text user "matrix_ring_home" (at -3.262 4.280000000000001 0) (layer "F.Fab")
+    (fp_text user "matrix_ring_top" (at -3.262 1.7400000000000002 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "matrix_inner_top" (at 3.262 4.280000000000001 0) (layer "F.Fab")
+    (fp_text user "matrix_inner_bottom" (at 3.262 1.7400000000000002 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_ring_home" (at -3.262 4.280000000000001 180) (layer "B.Fab")
+    (fp_text user "matrix_ring_top" (at -3.262 1.7400000000000002 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "matrix_inner_top" (at 3.262 4.280000000000001 180) (layer "B.Fab")
+    (fp_text user "matrix_inner_bottom" (at 3.262 1.7400000000000002 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "16" thru_hole circle (at -7.62 7.620000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 42 "MCU1_16"))
-    (pad "9" thru_hole circle (at 7.62 7.620000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 43 "MCU1_9"))
+    (pad "17" thru_hole circle (at -7.62 5.080000000000002 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 40 "MCU1_17"))
+    (pad "8" thru_hole circle (at 7.62 5.080000000000002 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 41 "MCU1_8"))
       
     
-    (pad "109" thru_hole circle (at 3.4 7.620000000000001 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 6 "matrix_ring_bottom"))
-    (pad "116" thru_hole circle (at -3.4 7.620000000000001 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 16 "matrix_inner_home"))
+    (pad "108" thru_hole circle (at 3.4 5.080000000000002 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 7 "matrix_ring_home"))
+    (pad "117" thru_hole circle (at -3.4 5.080000000000002 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 17 "matrix_inner_top"))
       
     
-    (pad "16" smd custom (at -5.5 7.620000000000001 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 42 "MCU1_16")
+    (pad "17" smd custom (at -5.5 5.080000000000002 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 40 "MCU1_17")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1893,7 +1796,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "116" smd custom (at -4.775 7.620000000000001 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 16 "matrix_inner_home")
+    (pad "117" smd custom (at -4.775 5.080000000000002 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 17 "matrix_inner_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1903,7 +1806,7 @@
     ))
 
     
-    (pad "109" smd custom (at 4.775 7.620000000000001 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 6 "matrix_ring_bottom")
+    (pad "108" smd custom (at 4.775 5.080000000000002 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 7 "matrix_ring_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1911,7 +1814,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "9" smd custom (at 5.5 7.620000000000001 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 43 "MCU1_9")
+    (pad "8" smd custom (at 5.5 5.080000000000002 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 41 "MCU1_8")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1921,7 +1824,7 @@
     ))
 
     
-    (pad "16" smd custom (at -5.5 7.620000000000001 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 42 "MCU1_16")
+    (pad "17" smd custom (at -5.5 5.080000000000002 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 40 "MCU1_17")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1930,7 +1833,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "109" smd custom (at -4.775 7.620000000000001 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 6 "matrix_ring_bottom")
+    (pad "108" smd custom (at -4.775 5.080000000000002 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 7 "matrix_ring_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1940,7 +1843,7 @@
     ))
 
     
-    (pad "116" smd custom (at 4.775 7.620000000000001 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 16 "matrix_inner_home")
+    (pad "117" smd custom (at 4.775 5.080000000000002 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 17 "matrix_inner_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1948,7 +1851,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "9" smd custom (at 5.5 7.620000000000001 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 43 "MCU1_9")
+    (pad "8" smd custom (at 5.5 5.080000000000002 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 41 "MCU1_8")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1958,31 +1861,31 @@
     ))
         
     
-    (fp_text user "matrix_ring_bottom" (at -3.262 6.82 0) (layer "F.Fab")
+    (fp_text user "matrix_ring_home" (at -3.262 4.280000000000001 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "matrix_inner_home" (at 3.262 6.82 0) (layer "F.Fab")
+    (fp_text user "matrix_inner_top" (at 3.262 4.280000000000001 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_ring_bottom" (at -3.262 6.82 180) (layer "B.Fab")
+    (fp_text user "matrix_ring_home" (at -3.262 4.280000000000001 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "matrix_inner_home" (at 3.262 6.82 180) (layer "B.Fab")
+    (fp_text user "matrix_inner_top" (at 3.262 4.280000000000001 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "15" thru_hole circle (at -7.62 10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 44 "MCU1_15"))
-    (pad "10" thru_hole circle (at 7.62 10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 45 "MCU1_10"))
+    (pad "16" thru_hole circle (at -7.62 7.620000000000001 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 42 "MCU1_16"))
+    (pad "9" thru_hole circle (at 7.62 7.620000000000001 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 43 "MCU1_9"))
       
     
-    (pad "110" thru_hole circle (at 3.4 10.16 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 11 "matrix_middle_top"))
-    (pad "115" thru_hole circle (at -3.4 10.16 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 13 "matrix_index_home"))
+    (pad "109" thru_hole circle (at 3.4 7.620000000000001 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 6 "matrix_ring_bottom"))
+    (pad "116" thru_hole circle (at -3.4 7.620000000000001 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 16 "matrix_inner_home"))
       
     
-    (pad "15" smd custom (at -5.5 10.16 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 44 "MCU1_15")
+    (pad "16" smd custom (at -5.5 7.620000000000001 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 42 "MCU1_16")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1990,7 +1893,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "115" smd custom (at -4.775 10.16 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 13 "matrix_index_home")
+    (pad "116" smd custom (at -4.775 7.620000000000001 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 16 "matrix_inner_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2000,7 +1903,7 @@
     ))
 
     
-    (pad "110" smd custom (at 4.775 10.16 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 11 "matrix_middle_top")
+    (pad "109" smd custom (at 4.775 7.620000000000001 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 6 "matrix_ring_bottom")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2008,7 +1911,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "10" smd custom (at 5.5 10.16 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 45 "MCU1_10")
+    (pad "9" smd custom (at 5.5 7.620000000000001 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 43 "MCU1_9")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2018,7 +1921,7 @@
     ))
 
     
-    (pad "15" smd custom (at -5.5 10.16 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 44 "MCU1_15")
+    (pad "16" smd custom (at -5.5 7.620000000000001 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 42 "MCU1_16")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2027,7 +1930,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "110" smd custom (at -4.775 10.16 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 11 "matrix_middle_top")
+    (pad "109" smd custom (at -4.775 7.620000000000001 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 6 "matrix_ring_bottom")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2037,7 +1940,7 @@
     ))
 
     
-    (pad "115" smd custom (at 4.775 10.16 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 13 "matrix_index_home")
+    (pad "116" smd custom (at 4.775 7.620000000000001 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 16 "matrix_inner_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2045,7 +1948,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "10" smd custom (at 5.5 10.16 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 45 "MCU1_10")
+    (pad "9" smd custom (at 5.5 7.620000000000001 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 43 "MCU1_9")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2055,31 +1958,31 @@
     ))
         
     
-    (fp_text user "matrix_middle_top" (at -3.262 9.36 0) (layer "F.Fab")
+    (fp_text user "matrix_ring_bottom" (at -3.262 6.82 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "matrix_index_home" (at 3.262 9.36 0) (layer "F.Fab")
+    (fp_text user "matrix_inner_home" (at 3.262 6.82 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_middle_top" (at -3.262 9.36 180) (layer "B.Fab")
+    (fp_text user "matrix_ring_bottom" (at -3.262 6.82 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "matrix_index_home" (at 3.262 9.36 180) (layer "B.Fab")
+    (fp_text user "matrix_inner_home" (at 3.262 6.82 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "14" thru_hole circle (at -7.62 12.7 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 46 "MCU1_14"))
-    (pad "11" thru_hole circle (at 7.62 12.7 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 47 "MCU1_11"))
+    (pad "15" thru_hole circle (at -7.62 10.16 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 44 "MCU1_15"))
+    (pad "10" thru_hole circle (at 7.62 10.16 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 45 "MCU1_10"))
       
     
-    (pad "111" thru_hole circle (at 3.4 12.7 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 10 "matrix_middle_home"))
-    (pad "114" thru_hole circle (at -3.4 12.7 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 19 "thumb_reachy"))
+    (pad "110" thru_hole circle (at 3.4 10.16 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 11 "matrix_middle_top"))
+    (pad "115" thru_hole circle (at -3.4 10.16 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 13 "matrix_index_home"))
       
     
-    (pad "14" smd custom (at -5.5 12.7 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 46 "MCU1_14")
+    (pad "15" smd custom (at -5.5 10.16 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 44 "MCU1_15")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2087,7 +1990,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "114" smd custom (at -4.775 12.7 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 19 "thumb_reachy")
+    (pad "115" smd custom (at -4.775 10.16 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 13 "matrix_index_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2097,7 +2000,7 @@
     ))
 
     
-    (pad "111" smd custom (at 4.775 12.7 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 10 "matrix_middle_home")
+    (pad "110" smd custom (at 4.775 10.16 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 11 "matrix_middle_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2105,7 +2008,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "11" smd custom (at 5.5 12.7 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 47 "MCU1_11")
+    (pad "10" smd custom (at 5.5 10.16 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 45 "MCU1_10")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2115,7 +2018,7 @@
     ))
 
     
-    (pad "14" smd custom (at -5.5 12.7 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 46 "MCU1_14")
+    (pad "15" smd custom (at -5.5 10.16 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 44 "MCU1_15")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2124,7 +2027,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "111" smd custom (at -4.775 12.7 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 10 "matrix_middle_home")
+    (pad "110" smd custom (at -4.775 10.16 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 11 "matrix_middle_top")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2134,7 +2037,7 @@
     ))
 
     
-    (pad "114" smd custom (at 4.775 12.7 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 19 "thumb_reachy")
+    (pad "115" smd custom (at 4.775 10.16 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 13 "matrix_index_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2142,7 +2045,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "11" smd custom (at 5.5 12.7 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 47 "MCU1_11")
+    (pad "10" smd custom (at 5.5 10.16 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 45 "MCU1_10")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2152,31 +2055,31 @@
     ))
         
     
-    (fp_text user "matrix_middle_home" (at -3.262 11.899999999999999 0) (layer "F.Fab")
+    (fp_text user "matrix_middle_top" (at -3.262 9.36 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "thumb_reachy" (at 3.262 11.899999999999999 0) (layer "F.Fab")
+    (fp_text user "matrix_index_home" (at 3.262 9.36 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_middle_home" (at -3.262 11.899999999999999 180) (layer "B.Fab")
+    (fp_text user "matrix_middle_top" (at -3.262 9.36 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "thumb_reachy" (at 3.262 11.899999999999999 180) (layer "B.Fab")
+    (fp_text user "matrix_index_home" (at 3.262 9.36 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
-    (pad "13" thru_hole circle (at -7.62 15.240000000000002 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 48 "MCU1_13"))
-    (pad "12" thru_hole circle (at 7.62 15.240000000000002 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 49 "MCU1_12"))
+    (pad "14" thru_hole circle (at -7.62 12.7 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 46 "MCU1_14"))
+    (pad "11" thru_hole circle (at 7.62 12.7 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 47 "MCU1_11"))
       
     
-    (pad "112" thru_hole circle (at 3.4 15.240000000000002 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 9 "matrix_middle_bottom"))
-    (pad "113" thru_hole circle (at -3.4 15.240000000000002 0) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 18 "thumb_tucky"))
+    (pad "111" thru_hole circle (at 3.4 12.7 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 10 "matrix_middle_home"))
+    (pad "114" thru_hole circle (at -3.4 12.7 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 19 "thumb_reachy"))
       
     
-    (pad "13" smd custom (at -5.5 15.240000000000002 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 48 "MCU1_13")
+    (pad "14" smd custom (at -5.5 12.7 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 46 "MCU1_14")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2184,7 +2087,7 @@
           (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
       ) (width 0) (fill yes))
     ))
-    (pad "113" smd custom (at -4.775 15.240000000000002 0) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 18 "thumb_tucky")
+    (pad "114" smd custom (at -4.775 12.7 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 19 "thumb_reachy")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2194,7 +2097,7 @@
     ))
 
     
-    (pad "112" smd custom (at 4.775 15.240000000000002 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 9 "matrix_middle_bottom")
+    (pad "111" smd custom (at 4.775 12.7 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 10 "matrix_middle_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2202,7 +2105,7 @@
           (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "12" smd custom (at 5.5 15.240000000000002 180) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 49 "MCU1_12")
+    (pad "11" smd custom (at 5.5 12.7 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 47 "MCU1_11")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2212,7 +2115,7 @@
     ))
 
     
-    (pad "13" smd custom (at -5.5 15.240000000000002 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 48 "MCU1_13")
+    (pad "14" smd custom (at -5.5 12.7 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 46 "MCU1_14")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2221,7 +2124,7 @@
       ) (width 0) (fill yes))
     ))
 
-    (pad "112" smd custom (at -4.775 15.240000000000002 0) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 9 "matrix_middle_bottom")
+    (pad "111" smd custom (at -4.775 12.7 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 10 "matrix_middle_home")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2231,7 +2134,7 @@
     ))
 
     
-    (pad "113" smd custom (at 4.775 15.240000000000002 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 18 "thumb_tucky")
+    (pad "114" smd custom (at 4.775 12.7 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 19 "thumb_reachy")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2239,7 +2142,7 @@
           (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
       ) (width 0) (fill yes))
     ))
-    (pad "12" smd custom (at 5.5 15.240000000000002 180) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 49 "MCU1_12")
+    (pad "11" smd custom (at 5.5 12.7 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 47 "MCU1_11")
       (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -2249,28 +2152,125 @@
     ))
         
     
-    (fp_text user "matrix_middle_bottom" (at -3.262 14.440000000000001 0) (layer "F.Fab")
+    (fp_text user "matrix_middle_home" (at -3.262 11.899999999999999 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (fp_text user "thumb_tucky" (at 3.262 14.440000000000001 0) (layer "F.Fab")
+    (fp_text user "thumb_reachy" (at 3.262 11.899999999999999 -5) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
 
     
-    (fp_text user "matrix_middle_bottom" (at -3.262 14.440000000000001 180) (layer "B.Fab")
+    (fp_text user "matrix_middle_home" (at -3.262 11.899999999999999 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (fp_text user "thumb_tucky" (at 3.262 14.440000000000001 180) (layer "B.Fab")
+    (fp_text user "thumb_reachy" (at 3.262 11.899999999999999 175) (layer "B.Fab")
+      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
+    )
+          
+    
+    (pad "13" thru_hole circle (at -7.62 15.240000000000002 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 48 "MCU1_13"))
+    (pad "12" thru_hole circle (at 7.62 15.240000000000002 -5) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 49 "MCU1_12"))
+      
+    
+    (pad "112" thru_hole circle (at 3.4 15.240000000000002 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 9 "matrix_middle_bottom"))
+    (pad "113" thru_hole circle (at -3.4 15.240000000000002 -5) (size 0.8 0.8) (drill 0.4) (layers "*.Cu" "*.Mask") (net 18 "thumb_tucky"))
+      
+    
+    (pad "13" smd custom (at -5.5 15.240000000000002 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 48 "MCU1_13")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
+      ) (width 0) (fill yes))
+    ))
+    (pad "113" smd custom (at -4.775 15.240000000000002 -5) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 18 "thumb_tucky")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
+      ) (width 0) (fill yes))
+    ))
+
+    
+    (pad "112" smd custom (at 4.775 15.240000000000002 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 9 "matrix_middle_bottom")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.65 -0.625) (xy 0.5 -0.625) (xy 0.5 0.625) (xy -0.65 0.625) (xy -0.15 0)
+      ) (width 0) (fill yes))
+    ))
+    (pad "12" smd custom (at 5.5 15.240000000000002 175) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (net 49 "MCU1_12")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.5 -0.625) (xy -0.25 -0.625) (xy 0.25 0) (xy -0.25 0.625) (xy -0.5 0.625)
+      ) (width 0) (fill yes))
+    ))
+
+    
+    (pad "13" smd custom (at -5.5 15.240000000000002 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 48 "MCU1_13")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.5 0.625) (xy -0.25 0.625) (xy 0.25 0) (xy -0.25 -0.625) (xy -0.5 -0.625)
+      ) (width 0) (fill yes))
+    ))
+
+    (pad "112" smd custom (at -4.775 15.240000000000002 -5) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 9 "matrix_middle_bottom")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
+      ) (width 0) (fill yes))
+    ))
+
+    
+    (pad "113" smd custom (at 4.775 15.240000000000002 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 18 "thumb_tucky")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.65 0.625) (xy 0.5 0.625) (xy 0.5 -0.625) (xy -0.65 -0.625) (xy -0.15 0)
+      ) (width 0) (fill yes))
+    ))
+    (pad "12" smd custom (at 5.5 15.240000000000002 175) (size 0.2 0.2) (layers "B.Cu" "B.Paste" "B.Mask") (net 49 "MCU1_12")
+      (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+          (xy -0.5 0.625) (xy -0.25 0.625) (xy 0.25 0) (xy -0.25 -0.625) (xy -0.5 -0.625)
+      ) (width 0) (fill yes))
+    ))
+        
+    
+    (fp_text user "matrix_middle_bottom" (at -3.262 14.440000000000001 -5) (layer "F.Fab")
+      (effects (font (size 0.5 0.5) (thickness 0.08)))
+    )
+    (fp_text user "thumb_tucky" (at 3.262 14.440000000000001 -5) (layer "F.Fab")
+      (effects (font (size 0.5 0.5) (thickness 0.08)))
+    )
+
+    
+    (fp_text user "matrix_middle_bottom" (at -3.262 14.440000000000001 175) (layer "B.Fab")
+      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
+    )
+    (fp_text user "thumb_tucky" (at 3.262 14.440000000000001 175) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
           
     
     
     
-    (fp_text user "R Jumpers, MCU Up" (at 0 -15.245 0) (layer "F.SilkS")
+    (fp_text user "R Jumpers, MCU Up" (at 0 -15.245 -5) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user "L Jumpers, MCU Up" (at 0 -15.245 0) (layer "B.SilkS")
+    (fp_text user "L Jumpers, MCU Up" (at 0 -15.245 -5) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     
@@ -2279,253 +2279,253 @@
 
   
   
-  (segment (start 249.03007040000003 57.8313917) (end 247.65507040000003 57.8313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 57.8313917) (end 240.85507040000002 57.8313917) (width 0.25) (layer "F.Cu"))
+  (segment (start 243.3741611 75.52022469999999) (end 242.0043934 75.40038559999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 233.86050170000001 74.6878874) (end 235.23026950000002 74.80772649999999) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 57.8313917) (end 238.75507040000002 57.8313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 57.8313917) (end 238.75507040000002 57.8313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 57.8313917) (end 251.87507040000003 57.8313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 57.8313917) (end 249.75507040000002 57.8313917) (width 0.25) (layer "B.Cu"))
+  (segment (start 231.02632780000002 74.43992929999999) (end 233.13826060000002 74.6246994) (width 0.25) (layer "F.Cu"))
+  (segment (start 231.02632780000002 74.43992929999999) (end 233.13826060000002 74.6246994) (width 0.25) (layer "B.Cu"))
+  (segment (start 244.09640230000002 75.58341259999999) (end 246.208335 75.76818279999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 246.208335 75.76818279999999) (end 244.09640230000002 75.58341259999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 58.0613917) (end 247.4250704 58.0613917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 57.8313917) (end 239.8297654 57.8313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 58.5563917) (end 241.15537540000003 58.5563917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 57.8313917) (end 240.5547654 58.5563917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 58.5563917) (end 241.65037540000003 58.0613917) (width 0.25) (layer "B.Cu"))
+  (segment (start 236.0025023 75.10616669999999) (end 241.7552228 75.60946449999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.86050170000001 74.6878874) (end 234.20886610000002 74.71836529999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.8679193 75.50379439999999) (end 235.4662438 75.556141) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.20886610000002 74.71836529999999) (end 234.8679193 75.50379439999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 235.4662438 75.556141) (end 236.0025023 75.10616669999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 57.8313917) (end 248.68037540000003 57.8313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 57.6113917) (end 241.07507040000002 57.6113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 57.8313917) (end 247.95537540000004 57.1063917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 57.1063917) (end 247.35476540000002 57.1063917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 57.1063917) (end 246.84976540000002 57.6113917) (width 0.25) (layer "B.Cu"))
+  (segment (start 243.3741611 75.52022469999999) (end 243.02579680000002 75.48974679999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.22132710000002 75.1110358) (end 235.46860660000002 74.60773789999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 243.02579680000002 75.48974679999999) (end 242.3667436 74.70431769999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.3667436 74.70431769999999) (end 241.76841910000002 74.6519711) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.76841910000002 74.6519711) (end 241.22132710000002 75.1110358) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 60.371391700000004) (end 247.65507040000003 60.371391700000004) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 60.371391700000004) (end 240.85507040000002 60.371391700000004) (width 0.25) (layer "F.Cu"))
+  (segment (start 243.15278550000002 78.0505592) (end 241.7830178 77.93072009999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 233.63912620000002 77.21822189999999) (end 235.0088939 77.338061) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 60.371391700000004) (end 238.75507040000002 60.371391700000004) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 60.371391700000004) (end 238.75507040000002 60.371391700000004) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 60.371391700000004) (end 251.87507040000003 60.371391700000004) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 60.371391700000004) (end 249.75507040000002 60.371391700000004) (width 0.25) (layer "B.Cu"))
+  (segment (start 230.8049522 76.9702638) (end 232.916885 77.15503399999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 230.8049522 76.9702638) (end 232.916885 77.15503399999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 243.8750267 78.11374719999999) (end 245.98695940000002 78.29851729999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 245.98695940000002 78.29851729999999) (end 243.8750267 78.11374719999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 60.6013917) (end 247.4250704 60.6013917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 60.371391700000004) (end 239.8297654 60.371391700000004) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 61.0963917) (end 241.15537540000003 61.0963917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 60.371391700000004) (end 240.5547654 61.0963917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 61.0963917) (end 241.65037540000003 60.6013917) (width 0.25) (layer "B.Cu"))
+  (segment (start 235.78112670000002 77.6365012) (end 241.53384720000003 78.13979909999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.63912620000002 77.21822189999999) (end 233.9874905 77.2486998) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.64654370000002 78.03412889999998) (end 235.2448682 78.08647549999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.9874905 77.2486998) (end 234.64654370000002 78.03412889999998) (width 0.25) (layer "B.Cu"))
+  (segment (start 235.2448682 78.08647549999999) (end 235.78112670000002 77.6365012) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 60.371391700000004) (end 248.68037540000003 60.371391700000004) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 60.1513917) (end 241.07507040000002 60.1513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 60.371391700000004) (end 247.95537540000004 59.6463917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 59.6463917) (end 247.35476540000002 59.6463917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 59.6463917) (end 246.84976540000002 60.1513917) (width 0.25) (layer "B.Cu"))
+  (segment (start 243.15278550000002 78.0505592) (end 242.8044212 78.02008129999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.9999515 77.64137029999999) (end 235.247231 77.13807249999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.8044212 78.02008129999999) (end 242.14536800000002 77.2346522) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.14536800000002 77.2346522) (end 241.5470435 77.18230559999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.5470435 77.18230559999999) (end 240.9999515 77.64137029999999) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 62.9113917) (end 247.65507040000003 62.9113917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 62.9113917) (end 240.85507040000002 62.9113917) (width 0.25) (layer "F.Cu"))
+  (segment (start 242.9314099 80.5808938) (end 241.56164220000002 80.4610546) (width 0.25) (layer "F.Cu"))
+  (segment (start 233.4177506 79.74855639999998) (end 234.78751830000002 79.86839559999999) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 62.9113917) (end 238.75507040000002 62.9113917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 62.9113917) (end 238.75507040000002 62.9113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 62.9113917) (end 251.87507040000003 62.9113917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 62.9113917) (end 249.75507040000002 62.9113917) (width 0.25) (layer "B.Cu"))
+  (segment (start 230.5835767 79.5005983) (end 232.69550940000002 79.6853685) (width 0.25) (layer "F.Cu"))
+  (segment (start 230.5835767 79.5005983) (end 232.69550940000002 79.6853685) (width 0.25) (layer "B.Cu"))
+  (segment (start 243.65365110000002 80.64408169999999) (end 245.76558390000002 80.82885189999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 245.76558390000002 80.82885189999999) (end 243.65365110000002 80.64408169999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 63.1413917) (end 247.4250704 63.1413917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 62.9113917) (end 239.8297654 62.9113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 63.636391700000004) (end 241.15537540000003 63.636391700000004) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 62.9113917) (end 240.5547654 63.636391700000004) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 63.636391700000004) (end 241.65037540000003 63.1413917) (width 0.25) (layer "B.Cu"))
+  (segment (start 235.5597511 80.16683579999999) (end 241.3124716 80.67013359999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.4177506 79.74855639999998) (end 233.76611490000002 79.77903439999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.4251681 80.5644634) (end 235.0234926 80.61680999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.76611490000002 79.77903439999999) (end 234.4251681 80.5644634) (width 0.25) (layer "B.Cu"))
+  (segment (start 235.0234926 80.61680999999999) (end 235.5597511 80.16683579999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 62.9113917) (end 248.68037540000003 62.9113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 62.6913917) (end 241.07507040000002 62.6913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 62.9113917) (end 247.95537540000004 62.1863917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 62.1863917) (end 247.35476540000002 62.1863917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 62.1863917) (end 246.84976540000002 62.6913917) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.9314099 80.5808938) (end 242.58304560000002 80.5504158) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.77857590000002 80.17170479999999) (end 235.0258554 79.66840699999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.58304560000002 80.5504158) (end 241.9239924 79.76498679999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.9239924 79.76498679999999) (end 241.3256679 79.7126402) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.3256679 79.7126402) (end 240.77857590000002 80.17170479999999) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 65.4513917) (end 247.65507040000003 65.4513917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 65.4513917) (end 240.85507040000002 65.4513917) (width 0.25) (layer "F.Cu"))
+  (segment (start 242.7100344 83.1112283) (end 241.3402666 82.99138919999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 233.19637500000002 82.27889099999999) (end 234.5661427 82.3987301) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 65.4513917) (end 238.75507040000002 65.4513917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 65.4513917) (end 238.75507040000002 65.4513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 65.4513917) (end 251.87507040000003 65.4513917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 65.4513917) (end 249.75507040000002 65.4513917) (width 0.25) (layer "B.Cu"))
+  (segment (start 230.36220110000002 82.0309329) (end 232.4741338 82.21570299999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 230.36220110000002 82.0309329) (end 232.4741338 82.21570299999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 243.4322755 83.1744162) (end 245.5442083 83.3591864) (width 0.25) (layer "F.Cu"))
+  (segment (start 245.5442083 83.3591864) (end 243.4322755 83.1744162) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 65.6813917) (end 247.4250704 65.6813917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 65.4513917) (end 239.8297654 65.4513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 66.1763917) (end 241.15537540000003 66.1763917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 65.4513917) (end 240.5547654 66.1763917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 66.1763917) (end 241.65037540000003 65.6813917) (width 0.25) (layer "B.Cu"))
+  (segment (start 235.3383755 82.6971703) (end 241.09109600000002 83.2004681) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.19637500000002 82.27889099999999) (end 233.5447393 82.3093689) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.20379250000002 83.094798) (end 234.802117 83.14714459999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.5447393 82.3093689) (end 234.20379250000002 83.094798) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.802117 83.14714459999999) (end 235.3383755 82.6971703) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 65.4513917) (end 248.68037540000003 65.4513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 65.2313917) (end 241.07507040000002 65.2313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 65.4513917) (end 247.95537540000004 64.7263917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 64.7263917) (end 247.35476540000002 64.7263917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 64.7263917) (end 246.84976540000002 65.2313917) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.7100344 83.1112283) (end 242.3616701 83.08075039999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.5572003 82.70203939999999) (end 234.80447980000002 82.1987415) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.3616701 83.08075039999999) (end 241.70261680000002 82.2953213) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.70261680000002 82.2953213) (end 241.1042923 82.24297469999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.1042923 82.24297469999999) (end 240.5572003 82.70203939999999) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 67.9913917) (end 247.65507040000003 67.9913917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 67.9913917) (end 240.85507040000002 67.9913917) (width 0.25) (layer "F.Cu"))
+  (segment (start 242.48865880000002 85.64156279999999) (end 241.1188911 85.5217237) (width 0.25) (layer "F.Cu"))
+  (segment (start 232.9749994 84.8092255) (end 234.3447671 84.92906459999999) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 67.9913917) (end 238.75507040000002 67.9913917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 67.9913917) (end 238.75507040000002 67.9913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 67.9913917) (end 251.87507040000003 67.9913917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 67.9913917) (end 249.75507040000002 67.9913917) (width 0.25) (layer "B.Cu"))
+  (segment (start 230.1408255 84.56126739999999) (end 232.25275820000002 84.7460376) (width 0.25) (layer "F.Cu"))
+  (segment (start 230.1408255 84.56126739999999) (end 232.25275820000002 84.7460376) (width 0.25) (layer "B.Cu"))
+  (segment (start 243.21089990000002 85.70475079999999) (end 245.32283270000002 85.8895209) (width 0.25) (layer "F.Cu"))
+  (segment (start 245.32283270000002 85.8895209) (end 243.21089990000002 85.70475079999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 68.2213917) (end 247.4250704 68.2213917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 67.9913917) (end 239.8297654 67.9913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 68.7163917) (end 241.15537540000003 68.7163917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 67.9913917) (end 240.5547654 68.7163917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 68.7163917) (end 241.65037540000003 68.2213917) (width 0.25) (layer "B.Cu"))
+  (segment (start 235.11699990000002 85.22750479999999) (end 240.8697205 85.7308027) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.9749994 84.8092255) (end 233.32336370000002 84.83970339999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.982417 85.62513249999999) (end 234.58074140000002 85.67747909999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.32336370000002 84.83970339999999) (end 233.982417 85.62513249999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.58074140000002 85.67747909999999) (end 235.11699990000002 85.22750479999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 67.9913917) (end 248.68037540000003 67.9913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 67.7713917) (end 241.07507040000002 67.7713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 67.9913917) (end 247.95537540000004 67.2663917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 67.2663917) (end 247.35476540000002 67.2663917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 67.2663917) (end 246.84976540000002 67.7713917) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.48865880000002 85.64156279999999) (end 242.1402945 85.6110849) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.3358248 85.2323739) (end 234.5831042 84.72907609999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.1402945 85.6110849) (end 241.4812412 84.82565579999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.4812412 84.82565579999999) (end 240.8829167 84.77330919999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.8829167 84.77330919999999) (end 240.3358248 85.2323739) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 70.5313917) (end 247.65507040000003 70.5313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 70.5313917) (end 240.85507040000002 70.5313917) (width 0.25) (layer "F.Cu"))
+  (segment (start 242.2672832 88.17189739999999) (end 240.8975155 88.05205819999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 232.7536238 87.33955999999999) (end 234.12339150000003 87.4593992) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 70.5313917) (end 238.75507040000002 70.5313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 70.5313917) (end 238.75507040000002 70.5313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 70.5313917) (end 251.87507040000003 70.5313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 70.5313917) (end 249.75507040000002 70.5313917) (width 0.25) (layer "B.Cu"))
+  (segment (start 229.91944990000002 87.09160189999999) (end 232.03138270000002 87.27637209999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 229.91944990000002 87.09160189999999) (end 232.03138270000002 87.27637209999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.9895243 88.2350853) (end 245.1014571 88.4198555) (width 0.25) (layer "F.Cu"))
+  (segment (start 245.1014571 88.4198555) (end 242.9895243 88.2350853) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 70.7613917) (end 247.4250704 70.7613917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 70.5313917) (end 239.8297654 70.5313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 71.2563917) (end 241.15537540000003 71.2563917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 70.5313917) (end 240.5547654 71.2563917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 71.2563917) (end 241.65037540000003 70.7613917) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.8956243 87.7578394) (end 240.6483449 88.2611372) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.7536238 87.33955999999999) (end 233.1019881 87.370038) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.7610414 88.15546699999999) (end 234.3593659 88.2078136) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.1019881 87.370038) (end 233.7610414 88.15546699999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.3593659 88.2078136) (end 234.8956243 87.7578394) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 70.5313917) (end 248.68037540000003 70.5313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 70.3113917) (end 241.07507040000002 70.3113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 70.5313917) (end 247.95537540000004 69.8063917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 69.8063917) (end 247.35476540000002 69.8063917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 69.8063917) (end 246.84976540000002 70.3113917) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.2672832 88.17189739999999) (end 241.91891890000002 88.14141939999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.11444920000002 87.7627084) (end 234.36172860000002 87.2594106) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.91891890000002 88.14141939999999) (end 241.2598656 87.3559904) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.2598656 87.3559904) (end 240.66154110000002 87.30364379999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.66154110000002 87.30364379999999) (end 240.11444920000002 87.7627084) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 73.0713917) (end 247.65507040000003 73.0713917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 73.0713917) (end 240.85507040000002 73.0713917) (width 0.25) (layer "F.Cu"))
+  (segment (start 242.04590760000002 90.70223189999999) (end 240.6761399 90.5823928) (width 0.25) (layer "F.Cu"))
+  (segment (start 232.5322482 89.8698946) (end 233.9020159 89.98973369999999) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 73.0713917) (end 238.75507040000002 73.0713917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 73.0713917) (end 238.75507040000002 73.0713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 73.0713917) (end 251.87507040000003 73.0713917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 73.0713917) (end 249.75507040000002 73.0713917) (width 0.25) (layer "B.Cu"))
+  (segment (start 229.6980743 89.62193649999999) (end 231.8100071 89.8067066) (width 0.25) (layer "F.Cu"))
+  (segment (start 229.6980743 89.62193649999999) (end 231.8100071 89.8067066) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.7681488 90.76541979999999) (end 244.88008150000002 90.95018999999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 244.88008150000002 90.95018999999999) (end 242.7681488 90.76541979999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 73.3013917) (end 247.4250704 73.3013917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 73.0713917) (end 239.8297654 73.0713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 73.7963917) (end 241.15537540000003 73.7963917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 73.0713917) (end 240.5547654 73.7963917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 73.7963917) (end 241.65037540000003 73.3013917) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.67424870000002 90.28817389999999) (end 240.42696930000002 90.79147169999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.5322482 89.8698946) (end 232.8806125 89.90037249999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.53966580000002 90.68580159999999) (end 234.1379903 90.7381482) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.8806125 89.90037249999999) (end 233.53966580000002 90.68580159999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.1379903 90.7381482) (end 234.67424870000002 90.28817389999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 73.0713917) (end 248.68037540000003 73.0713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 72.8513917) (end 241.07507040000002 72.8513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 73.0713917) (end 247.95537540000004 72.3463917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 72.3463917) (end 247.35476540000002 72.3463917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 72.3463917) (end 246.84976540000002 72.8513917) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.04590760000002 90.70223189999999) (end 241.6975433 90.67175399999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.8930736 90.293043) (end 234.140353 89.78974509999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.6975433 90.67175399999999) (end 241.03849000000002 89.88632489999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.03849000000002 89.88632489999999) (end 240.4401656 89.8339783) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.4401656 89.8339783) (end 239.8930736 90.293043) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 75.6113917) (end 247.65507040000003 75.6113917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 75.6113917) (end 240.85507040000002 75.6113917) (width 0.25) (layer "F.Cu"))
+  (segment (start 241.824532 93.2325664) (end 240.45476430000002 93.11272729999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 232.3108726 92.40022909999999) (end 233.68064040000002 92.5200682) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 75.6113917) (end 238.75507040000002 75.6113917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 75.6113917) (end 238.75507040000002 75.6113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 75.6113917) (end 251.87507040000003 75.6113917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 75.6113917) (end 249.75507040000002 75.6113917) (width 0.25) (layer "B.Cu"))
+  (segment (start 229.47669870000001 92.15227099999998) (end 231.58863150000002 92.33704119999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 229.47669870000001 92.15227099999998) (end 231.58863150000002 92.33704119999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.54677320000002 93.29575439999999) (end 244.6587059 93.48052449999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 244.6587059 93.48052449999999) (end 242.54677320000002 93.29575439999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 75.8413917) (end 247.4250704 75.8413917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 75.6113917) (end 239.8297654 75.6113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 76.33639170000001) (end 241.15537540000003 76.33639170000001) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 75.6113917) (end 240.5547654 76.33639170000001) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 76.33639170000001) (end 241.65037540000003 75.8413917) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.4528732 92.81850839999998) (end 240.2055937 93.32180629999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.3108726 92.40022909999999) (end 232.65923690000002 92.430707) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.3182902 93.21613609999999) (end 233.91661470000003 93.26848269999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.65923690000002 92.430707) (end 233.3182902 93.21613609999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.91661470000003 93.26848269999999) (end 234.4528732 92.81850839999998) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 75.6113917) (end 248.68037540000003 75.6113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 75.3913917) (end 241.07507040000002 75.3913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 75.6113917) (end 247.95537540000004 74.8863917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 74.8863917) (end 247.35476540000002 74.8863917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 74.8863917) (end 246.84976540000002 75.3913917) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.824532 93.2325664) (end 241.47616770000002 93.20208849999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.67169800000002 92.82337749999999) (end 233.9189775 92.3200797) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.47616770000002 93.20208849999999) (end 240.8171145 92.41665939999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.8171145 92.41665939999999) (end 240.21879 92.3643128) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.21879 92.3643128) (end 239.67169800000002 92.82337749999999) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 78.1513917) (end 247.65507040000003 78.1513917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 78.1513917) (end 240.85507040000002 78.1513917) (width 0.25) (layer "F.Cu"))
+  (segment (start 241.60315640000002 95.762901) (end 240.2333887 95.6430618) (width 0.25) (layer "F.Cu"))
+  (segment (start 232.08949710000002 94.93056359999999) (end 233.4592648 95.05040279999999) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 78.1513917) (end 238.75507040000002 78.1513917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 78.1513917) (end 238.75507040000002 78.1513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 78.1513917) (end 251.87507040000003 78.1513917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 78.1513917) (end 249.75507040000002 78.1513917) (width 0.25) (layer "B.Cu"))
+  (segment (start 229.2553231 94.6826055) (end 231.3672559 94.8673757) (width 0.25) (layer "F.Cu"))
+  (segment (start 229.2553231 94.6826055) (end 231.3672559 94.8673757) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.3253976 95.82608889999999) (end 244.4373303 96.01085909999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 244.4373303 96.01085909999999) (end 242.3253976 95.82608889999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 78.3813917) (end 247.4250704 78.3813917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 78.1513917) (end 239.8297654 78.1513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 78.8763917) (end 241.15537540000003 78.8763917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 78.1513917) (end 240.5547654 78.8763917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 78.8763917) (end 241.65037540000003 78.3813917) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.2314976 95.34884299999999) (end 239.98421810000002 95.85214079999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.08949710000002 94.93056359999999) (end 232.4378614 94.96104159999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.09691460000002 95.7464706) (end 233.6952391 95.79881719999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.4378614 94.96104159999999) (end 233.09691460000002 95.7464706) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.6952391 95.79881719999999) (end 234.2314976 95.34884299999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 78.1513917) (end 248.68037540000003 78.1513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 77.9313917) (end 241.07507040000002 77.9313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 78.1513917) (end 247.95537540000004 77.4263917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 77.4263917) (end 247.35476540000002 77.4263917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 77.4263917) (end 246.84976540000002 77.9313917) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.60315640000002 95.762901) (end 241.2547921 95.732423) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.4503224 95.35371199999999) (end 233.69760190000002 94.85041419999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.2547921 95.732423) (end 240.59573890000001 94.94699399999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.59573890000001 94.94699399999999) (end 239.99741440000003 94.8946474) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.99741440000003 94.8946474) (end 239.4503224 95.35371199999999) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 80.6913917) (end 247.65507040000003 80.6913917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 80.6913917) (end 240.85507040000002 80.6913917) (width 0.25) (layer "F.Cu"))
+  (segment (start 241.3817808 98.2932355) (end 240.01201310000002 98.17339639999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 231.8681215 97.46089819999999) (end 233.2378892 97.5807373) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 80.6913917) (end 238.75507040000002 80.6913917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 80.6913917) (end 238.75507040000002 80.6913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 80.6913917) (end 251.87507040000003 80.6913917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 80.6913917) (end 249.75507040000002 80.6913917) (width 0.25) (layer "B.Cu"))
+  (segment (start 229.0339476 97.2129401) (end 231.14588030000002 97.39771019999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 229.0339476 97.2129401) (end 231.14588030000002 97.39771019999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 242.10402200000001 98.3564234) (end 244.21595480000002 98.54119359999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 244.21595480000002 98.54119359999999) (end 242.10402200000001 98.3564234) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 80.9213917) (end 247.4250704 80.9213917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 80.6913917) (end 239.8297654 80.6913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 81.4163917) (end 241.15537540000003 81.4163917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 80.6913917) (end 240.5547654 81.4163917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 81.4163917) (end 241.65037540000003 80.9213917) (width 0.25) (layer "B.Cu"))
+  (segment (start 234.01012200000002 97.8791775) (end 239.7628425 98.3824753) (width 0.25) (layer "B.Cu"))
+  (segment (start 231.8681215 97.46089819999999) (end 232.21648580000002 97.4913761) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.875539 98.27680519999998) (end 233.47386350000002 98.32915179999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.21648580000002 97.4913761) (end 232.875539 98.27680519999998) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.47386350000002 98.32915179999999) (end 234.01012200000002 97.8791775) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 80.6913917) (end 248.68037540000003 80.6913917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 80.4713917) (end 241.07507040000002 80.4713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 80.6913917) (end 247.95537540000004 79.9663917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 79.9663917) (end 247.35476540000002 79.9663917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 79.9663917) (end 246.84976540000002 80.4713917) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.3817808 98.2932355) (end 241.03341650000002 98.26275759999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.22894680000002 97.88404659999999) (end 233.4762263 97.3807487) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.03341650000002 98.26275759999999) (end 240.3743633 97.4773285) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.3743633 97.4773285) (end 239.7760388 97.42498189999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.7760388 97.42498189999999) (end 239.22894680000002 97.88404659999999) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 83.2313917) (end 247.65507040000003 83.2313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 83.2313917) (end 240.85507040000002 83.2313917) (width 0.25) (layer "F.Cu"))
+  (segment (start 241.1604053 100.82356999999999) (end 239.7906375 100.7037309) (width 0.25) (layer "F.Cu"))
+  (segment (start 231.6467459 99.9912327) (end 233.01651360000002 100.11107179999999) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 83.2313917) (end 238.75507040000002 83.2313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 83.2313917) (end 238.75507040000002 83.2313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 83.2313917) (end 251.87507040000003 83.2313917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 83.2313917) (end 249.75507040000002 83.2313917) (width 0.25) (layer "B.Cu"))
+  (segment (start 228.81257200000002 99.74327459999999) (end 230.9245047 99.9280448) (width 0.25) (layer "F.Cu"))
+  (segment (start 228.81257200000002 99.74327459999999) (end 230.9245047 99.9280448) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.8826464 100.88675799999999) (end 243.9945792 101.0715281) (width 0.25) (layer "F.Cu"))
+  (segment (start 243.9945792 101.0715281) (end 241.8826464 100.88675799999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 83.46139170000001) (end 247.4250704 83.46139170000001) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 83.2313917) (end 239.8297654 83.2313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 83.9563917) (end 241.15537540000003 83.9563917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 83.2313917) (end 240.5547654 83.9563917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 83.9563917) (end 241.65037540000003 83.46139170000001) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.7887464 100.40951199999999) (end 239.54146690000002 100.91280989999998) (width 0.25) (layer "B.Cu"))
+  (segment (start 231.6467459 99.9912327) (end 231.9951102 100.02171059999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.65416340000002 100.8071397) (end 233.2524879 100.85948629999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 231.9951102 100.02171059999999) (end 232.65416340000002 100.8071397) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.2524879 100.85948629999999) (end 233.7887464 100.40951199999999) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 83.2313917) (end 248.68037540000003 83.2313917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 83.0113917) (end 241.07507040000002 83.0113917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 83.2313917) (end 247.95537540000004 82.5063917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 82.5063917) (end 247.35476540000002 82.5063917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 82.5063917) (end 246.84976540000002 83.0113917) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.1604053 100.82356999999999) (end 240.8120409 100.7930921) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.0075712 100.41438109999999) (end 233.25485070000002 99.91108329999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.8120409 100.7930921) (end 240.1529877 100.007663) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.1529877 100.007663) (end 239.55466320000002 99.95531639999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.55466320000002 99.95531639999999) (end 239.0075712 100.41438109999999) (width 0.25) (layer "B.Cu"))
         
-  (segment (start 249.03007040000003 85.7713917) (end 247.65507040000003 85.7713917) (width 0.25) (layer "F.Cu"))
-  (segment (start 239.48007040000002 85.7713917) (end 240.85507040000002 85.7713917) (width 0.25) (layer "F.Cu"))
+  (segment (start 240.93902970000002 103.35390459999999) (end 239.569262 103.23406539999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 231.4253703 102.52156719999999) (end 232.795138 102.6414064) (width 0.25) (layer "F.Cu"))
 
-  (segment (start 236.63507040000002 85.7713917) (end 238.75507040000002 85.7713917) (width 0.25) (layer "F.Cu"))
-  (segment (start 236.63507040000002 85.7713917) (end 238.75507040000002 85.7713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 249.75507040000002 85.7713917) (end 251.87507040000003 85.7713917) (width 0.25) (layer "F.Cu"))
-  (segment (start 251.87507040000003 85.7713917) (end 249.75507040000002 85.7713917) (width 0.25) (layer "B.Cu"))
+  (segment (start 228.5911964 102.27360909999999) (end 230.7031291 102.45837929999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 228.5911964 102.27360909999999) (end 230.7031291 102.45837929999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 241.6612708 103.4170925) (end 243.77320360000002 103.6018627) (width 0.25) (layer "F.Cu"))
+  (segment (start 243.77320360000002 103.6018627) (end 241.6612708 103.4170925) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 241.65037540000003 86.0013917) (end 247.4250704 86.0013917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.48007040000002 85.7713917) (end 239.8297654 85.7713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 240.5547654 86.4963917) (end 241.15537540000003 86.4963917) (width 0.25) (layer "B.Cu"))
-  (segment (start 239.8297654 85.7713917) (end 240.5547654 86.4963917) (width 0.25) (layer "B.Cu"))
-  (segment (start 241.15537540000003 86.4963917) (end 241.65037540000003 86.0013917) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.56737080000002 102.9398466) (end 239.32009140000002 103.4431444) (width 0.25) (layer "B.Cu"))
+  (segment (start 231.4253703 102.52156719999999) (end 231.7737346 102.5520452) (width 0.25) (layer "B.Cu"))
+  (segment (start 232.4327878 103.33747419999999) (end 233.03111230000002 103.3898208) (width 0.25) (layer "B.Cu"))
+  (segment (start 231.7737346 102.5520452) (end 232.4327878 103.33747419999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 233.03111230000002 103.3898208) (end 233.56737080000002 102.9398466) (width 0.25) (layer "B.Cu"))
 
-  (segment (start 249.03007040000003 85.7713917) (end 248.68037540000003 85.7713917) (width 0.25) (layer "B.Cu"))
-  (segment (start 246.84976540000002 85.5513917) (end 241.07507040000002 85.5513917) (width 0.25) (layer "B.Cu"))
-  (segment (start 248.68037540000003 85.7713917) (end 247.95537540000004 85.0463917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.95537540000004 85.0463917) (end 247.35476540000002 85.0463917) (width 0.25) (layer "B.Cu"))
-  (segment (start 247.35476540000002 85.0463917) (end 246.84976540000002 85.5513917) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.93902970000002 103.35390459999999) (end 240.5906654 103.32342659999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 238.7861956 102.9447156) (end 233.0334751 102.4414178) (width 0.25) (layer "B.Cu"))
+  (segment (start 240.5906654 103.32342659999999) (end 239.93161210000002 102.5379976) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.93161210000002 102.5379976) (end 239.3332876 102.48565099999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 239.3332876 102.48565099999999) (end 238.7861956 102.9447156) (width 0.25) (layer "B.Cu"))
         
     
 
     (footprint "ceoloide:battery_connector_jst_ph_2"
         (layer "F.Cu")
-        (at 237.7425704 95.0813917 90)
+        (at 228.88306210000002 111.6447068 85)
         (property "Reference" "JST1"
-            (at 0 4.8 90)
+            (at 0 4.8 85)
             (layer "F.SilkS")
             hide
             (effects (font (size 1 1) (thickness 0.15)))
@@ -2583,9 +2583,9 @@
         (fp_line (start 2.14 6.36) (end 3.06 6.36) (stroke (width 0.12) (type solid)) (layer "B.SilkS"))
         (fp_line (start 3.06 6.36) (end 3.06 5.36) (stroke (width 0.12) (type solid)) (layer "B.SilkS"))
         
-        (pad "11" thru_hole oval (at -1 0 90) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 52 "JST1_1"))
-        (pad "12" thru_hole oval (at 1 0 90) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 53 "JST1_2"))
-        (pad "21" smd custom (at -1 1.8 270) (size 0.1 0.1) (layers "F.Cu" "F.Mask" "F.Paste")
+        (pad "11" thru_hole oval (at -1 0 85) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 52 "JST1_1"))
+        (pad "12" thru_hole oval (at 1 0 85) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 53 "JST1_2"))
+        (pad "21" smd custom (at -1 1.8 265) (size 0.1 0.1) (layers "F.Cu" "F.Mask" "F.Paste")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2603,7 +2603,7 @@
             )
             (net 52 "JST1_1")
         )
-        (pad "31" smd custom (at -1 1.8 270) (size 0.1 0.1) (layers "B.Cu" "B.Mask" "B.Paste")
+        (pad "31" smd custom (at -1 1.8 265) (size 0.1 0.1) (layers "B.Cu" "B.Mask" "B.Paste")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2621,7 +2621,7 @@
             )
             (net 52 "JST1_1")
         )
-        (pad "22" smd custom (at 1 1.8 270) (size 0.1 0.1) (layers "F.Cu" "F.Mask" "F.Paste")
+        (pad "22" smd custom (at 1 1.8 265) (size 0.1 0.1) (layers "F.Cu" "F.Mask" "F.Paste")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2639,7 +2639,7 @@
             )
             (net 53 "JST1_2")
         )
-        (pad "32" smd custom (at 1 1.8 270) (size 0.1 0.1) (layers "B.Cu" "B.Mask" "B.Paste")
+        (pad "32" smd custom (at 1 1.8 265) (size 0.1 0.1) (layers "B.Cu" "B.Mask" "B.Paste")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2657,7 +2657,7 @@
             )
             (net 53 "JST1_2")
         )
-        (pad "1" smd custom (at -1 2.816 270) (size 1.2 0.5) (layers "F.Cu" "F.Mask" "F.Paste") (net 50 "pos")
+        (pad "1" smd custom (at -1 2.816 265) (size 1.2 0.5) (layers "F.Cu" "F.Mask" "F.Paste") (net 50 "pos")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2674,7 +2674,7 @@
                 )
             )
         )
-        (pad "1" smd custom (at 1 2.816 270) (size 1.2 0.5) (layers "B.Cu" "B.Mask" "B.Paste") (net 50 "pos")
+        (pad "1" smd custom (at 1 2.816 265) (size 1.2 0.5) (layers "B.Cu" "B.Mask" "B.Paste") (net 50 "pos")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2691,7 +2691,7 @@
                 )
             )
         )
-        (pad "2" smd custom (at -1 2.816 270) (size 1.2 0.5) (layers "B.Cu" "B.Mask" "B.Paste") (net 51 "B-")
+        (pad "2" smd custom (at -1 2.816 265) (size 1.2 0.5) (layers "B.Cu" "B.Mask" "B.Paste") (net 51 "B-")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2708,7 +2708,7 @@
                 )
             )
         )
-        (pad "2" smd custom (at 1 2.816 270) (size 1.2 0.5) (layers "F.Cu" "F.Mask" "F.Paste") (net 51 "B-")
+        (pad "2" smd custom (at 1 2.816 265) (size 1.2 0.5) (layers "F.Cu" "F.Mask" "F.Paste") (net 51 "B-")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2728,17 +2728,17 @@
         
     )
          
-    (segment (start 239.54257040000002 96.0813917) (end 237.7425704 96.0813917) (width 0.25) (layer "F.Cu") (net 52))
-    (segment (start 239.54257040000002 96.0813917) (end 237.7425704 96.0813917) (width 0.25) (layer "B.Cu") (net 52))
-    (segment (start 239.54257040000002 94.0813917) (end 237.7425704 94.0813917) (width 0.25) (layer "F.Cu") (net 53))
-    (segment (start 239.54257040000002 94.0813917) (end 237.7425704 94.0813917) (width 0.25) (layer "B.Cu") (net 53))
+    (segment (start 230.5890568 112.7977818) (end 228.7959064 112.6409015) (width 0.25) (layer "F.Cu") (net 52))
+    (segment (start 230.5890568 112.7977818) (end 228.7959064 112.6409015) (width 0.25) (layer "B.Cu") (net 52))
+    (segment (start 230.76336830000002 110.80539239999999) (end 228.97021780000003 110.64851209999999) (width 0.25) (layer "F.Cu") (net 53))
+    (segment (start 230.76336830000002 110.80539239999999) (end 228.97021780000003 110.64851209999999) (width 0.25) (layer "B.Cu") (net 53))
         
 
   (footprint "ceoloide:power_switch_smd_side"
     (layer "F.Cu")
-    (at 223.5550704 55.4463917 90)
+    (at 217.8719043 74.71950960000001 85)
     (property "Reference" "PWR1"
-      (at -3.6 0 0)
+      (at -3.6 0 -5)
       (layer "F.SilkS")
       hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2755,18 +2755,18 @@
     (fp_line (start 2.845 1.2) (end 2.845 0.35) (layer "F.Fab") (stroke (width 0.1) (type solid)))
     (fp_line (start 2.645 1.4) (end 2.845 1.2) (layer "F.Fab") (stroke (width 0.1) (type solid)))
     (fp_line (start 1.345 1.4) (end 2.645 1.4) (layer "F.Fab") (stroke (width 0.1) (type solid)))
-    (pad "" smd rect (at 1.125 -3.65 180) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
-    (pad "" smd rect (at -1.085 -3.65 180) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
-    (pad "" smd rect (at -1.085 3.65 180) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
-    (pad "" smd rect (at 1.125 3.65 180) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
-    (pad "1" smd rect (at -1.735 2.25 180) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") )
-    (pad "2" smd rect (at -1.735 -0.75 180) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (net 54 "B+"))
-    (pad "3" smd rect (at -1.735 -2.25 180) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (net 50 "pos"))
+    (pad "" smd rect (at 1.125 -3.65 175) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+    (pad "" smd rect (at -1.085 -3.65 175) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+    (pad "" smd rect (at -1.085 3.65 175) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+    (pad "" smd rect (at 1.125 3.65 175) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+    (pad "1" smd rect (at -1.735 2.25 175) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") )
+    (pad "2" smd rect (at -1.735 -0.75 175) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (net 54 "B+"))
+    (pad "3" smd rect (at -1.735 -2.25 175) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (net 50 "pos"))
     
-    (fp_text user "ON" (at 0 -5 90) (layer "F.SilkS")
+    (fp_text user "ON" (at 0 -5 85) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user "OFF" (at 0 5 90) (layer "F.SilkS")
+    (fp_text user "OFF" (at 0 5 85) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.415 -3.45) (end -0.375 -3.45) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
@@ -2785,21 +2785,21 @@
     (fp_line (start 1.295 -3.35) (end 1.295 3.35) (layer "B.Fab") (stroke (width 0.1) (type solid)))
     (fp_line (start 1.295 3.35) (end -1.305 3.35) (layer "B.Fab") (stroke (width 0.1) (type solid)))
     (fp_line (start -1.305 -3.35) (end 1.295 -3.35) (layer "B.Fab") (stroke (width 0.1) (type solid)))
-    (pad "" smd rect (at -1.085 -3.65 360) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
-    (pad "" smd rect (at 1.125 -3.65 360) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
-    (pad "" smd rect (at -1.085 3.65 360) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
-    (pad "" smd rect (at 1.125 3.65 360) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
-    (pad "1" smd rect (at -1.735 -2.25 360) (size 0.7 1.5) (layers "B.Cu" "B.Paste" "B.Mask") (net 50 "pos"))
-    (pad "2" smd rect (at -1.735 0.75 360) (size 0.7 1.5) (layers "B.Cu" "B.Paste" "B.Mask") (net 54 "B+"))
-    (pad "3" smd rect (at -1.735 2.25 360) (size 0.7 1.5) (layers "B.Cu" "B.Paste" "B.Mask") )
+    (pad "" smd rect (at -1.085 -3.65 355) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
+    (pad "" smd rect (at 1.125 -3.65 355) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
+    (pad "" smd rect (at -1.085 3.65 355) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
+    (pad "" smd rect (at 1.125 3.65 355) (size 1 0.8) (layers "B.Cu" "B.Paste" "B.Mask"))
+    (pad "1" smd rect (at -1.735 -2.25 355) (size 0.7 1.5) (layers "B.Cu" "B.Paste" "B.Mask") (net 50 "pos"))
+    (pad "2" smd rect (at -1.735 0.75 355) (size 0.7 1.5) (layers "B.Cu" "B.Paste" "B.Mask") (net 54 "B+"))
+    (pad "3" smd rect (at -1.735 2.25 355) (size 0.7 1.5) (layers "B.Cu" "B.Paste" "B.Mask") )
     
-    (fp_text user "PWR1" (at -3.5 0 180) (layer "B.SilkS") hide
+    (fp_text user "PWR1" (at -3.5 0 175) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text user "ON" (at 0 -5 90) (layer "B.SilkS")
+    (fp_text user "ON" (at 0 -5 85) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text user "OFF" (at 0 5 90) (layer "B.SilkS")
+    (fp_text user "OFF" (at 0 5 85) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.425 1.4) (end -1.425 1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
@@ -2808,16 +2808,16 @@
     (fp_line (start -1.425 -1.6) (end -1.425 0.1) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
     (fp_line (start 1.425 -2.85) (end 1.425 2.85) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
     
-    (pad "" np_thru_hole circle (at 0.025 -1.5 180) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask"))
-    (pad "" np_thru_hole circle (at 0.025 1.5 180) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask"))
+    (pad "" np_thru_hole circle (at 0.025 -1.5 175) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask"))
+    (pad "" np_thru_hole circle (at 0.025 1.5 175) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask"))
   )
     
 
   (footprint "ceoloide:reset_switch_smd_side"
     (layer "F.Cu")
-    (at 204.50507040000002 55.9463917 0)
+    (at 198.8508175 73.5572901 -5)
     (property "Reference" "RST1"
-      (at 0 0 0)
+      (at 0 0 -5)
       (layer "F.SilkS")
       hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2831,10 +2831,10 @@
     (fp_line (start 1.3 -2.75) (end 1.3 -1.75) (stroke (width 0.1) (type solid)) (layer "Dwgs.User"))
     (fp_line (start 2.35 -1.75) (end 2.35 1.75) (stroke (width 0.1) (type solid)) (layer "Dwgs.User"))
     
-    (pad "1" smd rect (at 2.625 -0.85 180) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND"))
-    (pad "2" smd rect (at 2.625 0.85 180) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 21 "RST"))
-    (pad "3" smd rect (at -2.625 -0.85 180) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND"))
-    (pad "4" smd rect (at -2.625 0.85 180) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 21 "RST"))
+    (pad "1" smd rect (at 2.625 -0.85 175) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND"))
+    (pad "2" smd rect (at 2.625 0.85 175) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 21 "RST"))
+    (pad "3" smd rect (at -2.625 -0.85 175) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "GND"))
+    (pad "4" smd rect (at -2.625 0.85 175) (size 1.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (net 21 "RST"))
     
     (fp_line (start -2.35 -1.5) (end -2.35 -1.75) (stroke (width 0.1) (type solid)) (layer "F.SilkS"))
     (fp_line (start -2.35 1.5) (end -2.35 1.75) (stroke (width 0.1) (type solid)) (layer "F.SilkS"))
@@ -2845,10 +2845,10 @@
     (fp_line (start 2.35 -1.5) (end 2.35 -1.75) (stroke (width 0.1) (type solid)) (layer "F.SilkS"))
     (fp_line (start 2.35 1.5) (end 2.35 1.75) (stroke (width 0.1) (type solid)) (layer "F.SilkS"))
     
-    (pad "1" smd rect (at -2.625 -0.85 180) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND"))
-    (pad "2" smd rect (at -2.625 0.85 180) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 21 "RST"))
-    (pad "3" smd rect (at 2.625 -0.85 180) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND"))
-    (pad "4" smd rect (at 2.625 0.85 180) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 21 "RST"))
+    (pad "1" smd rect (at -2.625 -0.85 175) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND"))
+    (pad "2" smd rect (at -2.625 0.85 175) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 21 "RST"))
+    (pad "3" smd rect (at 2.625 -0.85 175) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 1 "GND"))
+    (pad "4" smd rect (at 2.625 0.85 175) (size 1.55 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 21 "RST"))
     
     (fp_line (start -2.35 -1.5) (end -2.35 -1.75) (stroke (width 0.1) (type solid)) (layer "B.SilkS"))
     (fp_line (start -2.35 1.5) (end -2.35 1.75) (stroke (width 0.1) (type solid)) (layer "B.SilkS"))
@@ -2861,44 +2861,28 @@
     
   )
     
-  (gr_line (start 124.54257040000002 135.9438917) (end 207.71757029999998 135.9438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 229.7675703 135.9438917) (end 229.78451018689816 135.9438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 251.96073731246602 135.9438917) (end 253.03507040000002 135.9438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 254.03507040000002 134.9438917) (end 254.03507040000002 55.02889169999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 253.03507040000002 54.02889169999999) (end 196.48007040000002 54.02889169999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 174.4300704 54.02889169999999) (end 124.54257040000002 54.02889169999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 123.54257040000002 55.02889169999999) (end 123.54257040000002 96.45069008860044) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 123.54257040000002 118.99330018456203) (end 123.54257040000002 134.9438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 253.03507040000002 135.9438917) (mid 253.74217720000001 135.6509985) (end 254.03507040000002 134.9438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 254.03507040000002 55.02889169999999) (mid 253.74217720000001 54.32178489999999) (end 253.03507040000002 54.02889169999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 124.54257040000002 54.02889169999999) (mid 123.83546360000001 54.32178489999999) (end 123.54257040000002 55.02889169999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 123.54257040000002 134.9438917) (mid 123.83546360000001 135.6509985) (end 124.54257040000002 135.9438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 117.42313679780243 119.67657735733769) (end 122.93861455216137 118.50422639473045) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 123.14652624783864 96.93976387843203) (end 113.04659578432839 99.08657035859427) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 112.66147784233542 99.67959999626453) (end 116.83010716013217 119.29145941534466) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 174.9300704 53.52889169999999) (end 174.9300704 50.6713917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 195.98007040000002 53.52889169999999) (end 195.98007040000002 50.6713917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 195.48007040000002 50.1713917) (end 175.4300704 50.1713917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 208.71757029999998 142.6588917) (end 228.57168758903296 142.6588917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 229.2675703 137.87313762752513) (end 229.2675703 136.4438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 208.21757029999998 136.4438917) (end 208.21757029999998 142.1588917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 228.70109708903297 142.6759288) (end 247.8787018221021 147.81455248723933) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 248.4910742221021 147.46099908723943) (end 251.477774412466 136.31448220000004) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 229.78451018689816 135.9438917) (end 229.2675703 137.87313762752513) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 208.21757029999998 136.4438917) (mid 208.0711237 136.09033829999998) (end 207.71757029999998 135.9438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 208.21757029999998 142.1588917) (mid 208.36401689999997 142.5124451) (end 208.71757029999998 142.6588917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 228.70109708903297 142.6759288) (mid 228.63695068903297 142.6631693) (end 228.57168758903296 142.6588917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 247.8787018221021 147.8145524872393) (mid 248.2581113221021 147.7646022872393) (end 248.4910742221021 147.46099908723932) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 251.96073731246602 135.9438917) (mid 251.65635661246603 136.047215) (end 251.47777441246603 136.3144822) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 195.98007040000002 53.52889169999999) (mid 196.126517 53.88244509999999) (end 196.48007040000002 54.02889169999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 195.98007040000002 50.6713917) (mid 195.83362380000003 50.3178383) (end 195.48007040000002 50.1713917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 175.4300704 50.1713917) (mid 175.076517 50.3178383) (end 174.9300704 50.6713917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 174.4300704 54.02889169999999) (mid 174.78362380000002 53.88244509999999) (end 174.9300704 53.52889169999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 123.14652620000001 96.93976388860044) (mid 123.43114330000002 96.76535028860044) (end 123.54257040000002 96.45069008860044) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 113.04659583216701 99.08657034842585) (mid 112.73121633216701 99.30332464842586) (end 112.66147783216701 99.67959994842585) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 116.83010714996375 119.29145936750604) (mid 117.04686144996376 119.60683886750604) (end 117.42313674996375 119.67657736750604) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 123.54257040000002 118.99330018456203) (mid 123.35723060000002 118.60472718456204) (end 122.93861460000002 118.50422638456203) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 229.7675703 135.9438917) (mid 229.41401689999998 136.09033829999998) (end 229.2675703 136.4438917) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+  (gr_line (start 103.9735574 155.0031694) (end 189.79232959991643 155.0031694) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 230.6085574 140.42595421043347) (end 230.6085574 70.27816939999998) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 229.6085574 69.27816939999998) (end 191.21328213466512 69.27816939999998) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 169.0790548134939 69.27816939999998) (end 103.9735574 69.27816939999998) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 102.9735574 70.27816939999998) (end 102.9735574 154.0031694) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 230.6085574 70.27816939999998) (mid 230.3156642 69.57106259999998) (end 229.6085574 69.27816939999998) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 103.9735574 69.27816939999998) (mid 103.2664506 69.57106259999998) (end 102.9735574 70.27816939999998) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 102.9735574 154.0031694) (mid 103.2664506 154.71027619999998) (end 103.9735574 155.0031694) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 190.7151848299441 68.73459155396131) (end 190.81800423715111 67.55936028144379) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 190.36348477846875 67.017685130684) (end 170.38978098412406 65.27021246604332) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 169.84810583336446 65.7247319247258) (end 169.57715211821494 68.82174724603874) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 189.7888987 155.022627) (end 228.7872856935347 161.89909490495108) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 189.79232959991643 155.00316939999993) (end 189.7888987 155.022627) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 229.36651369353473 161.49351510495103) (end 232.8481597044674 141.7481197063796) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 232.44257990446732 141.16889170638004) (end 231.02173329999997 140.91835811043347) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 228.78728569353467 161.89909490495108) (mid 229.16089799353466 161.81626700495107) (end 229.36651369353467 161.4935151049511) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 232.84815970446738 141.74811970637978) (mid 232.76533180446737 141.3745074063798) (end 232.44257990446738 141.16889170637978) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 230.6085574 140.42595421043347) (mid 230.7255352 140.74734801043348) (end 231.0217333 140.91835811043347) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 190.71518473466512 68.73459149999998) (mid 190.84464343466513 69.11596449999998) (end 191.21328213466512 69.27816949999998) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 190.81800433243012 67.55936033540507) (mid 190.7029292324301 67.19438863540508) (end 190.36348483243012 67.01768503540507) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 170.38978103808546 65.27021237076431) (mid 170.02480933808545 65.38528747076433) (end 169.84810573808545 65.72473187076432) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 169.0790548134939 69.27816940000002) (mid 169.4168499134939 69.14680810000003) (end 169.57715221349392 68.82174730000003) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 
 )
 
