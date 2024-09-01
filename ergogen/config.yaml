@@ -13,8 +13,8 @@ points:
         pinky:
         ring.key:
           stagger: 0.66U
-          splay: -5
-          spread: 1.075U
+          splay: -7
+          spread: 1.1U
         middle.key:
           stagger: 0.25U
           splay: -5
@@ -25,7 +25,7 @@ points:
         bottom.padding: U
         home.padding: U
         top.padding: U
-      rotate: 10
+      rotate: 12
       anchor:
         # Shift the PCB slightly to the right and down, otherwise it's weirdly positioned outside of the main sheet in KiCad
         shift: [100, -150]
@@ -58,6 +58,7 @@ outlines:
     - what: rectangle
       where: square_center
       size: [6.85U, 4.3U]
+      fillet: 1
   board:
     - name: rect
     - operation: add
@@ -87,24 +88,60 @@ pcbs:
         what: mcu_nice_nano
         where:
           - ref: matrix_inner_home
-            shift: [1U + 2, 1U + 3.5]
+            shift: [1U + 1.75, 1U + 3.5]
             rotate: 0
         params:
           reversible: true
-          P7: matrix_pinky_top
-          P18: matrix_ring_top
-          P19: matrix_middle_top
-          P20: matrix_index_top
+          show_silk_labels: false
+          # right side pins
           P21: matrix_inner_top
-          P15: matrix_pinky_home
-          P14: matrix_ring_home
-          P16: matrix_middle_home
-          P10: matrix_index_home
-          P1: matrix_inner_home
-          P2: matrix_pinky_bottom
-          P3: matrix_ring_bottom
-          P4: matrix_middle_bottom
-          P5: matrix_index_bottom
-          P6: matrix_inner_bottom
-          P8: thumb_tucky
-          P9: thumb_reachy
+          P20: matrix_inner_home
+          P19: matrix_inner_bottom
+          P18: matrix_inner_top
+          P15: matrix_inner_home
+          P14: matrix_index_home
+          P16: thumb_reachy
+          P10: thumb_tucky
+          # left side pins
+          P1: matrix_outer_home
+          P0: matrix_pinky_top
+          P2: matrix_pinky_home
+          P3: matrix_pinky_bottom
+          P4: matrix_ring_top
+          P5: matrix_ring_home
+          P6: matrix_ring_bottom
+          P7: matrix_middle_top
+          P8: matrix_middle_home
+          P9: matrix_middle_bottom
+      battery_connector:
+        what: battery_connector_jst_ph_2
+        where:
+          ref:
+            - matrix_inner_home
+          shift: [0.75U, -2]
+          rotate: 90
+        params:
+          reversible: true
+          BAT_N: B-
+          BAT_P: pos
+      on_off_switch:
+        what: power_switch_smd_side
+        where:
+          ref:
+            - matrix_middle_top
+          shift: [2U, 5.25]
+          rotate: 90
+        params:
+          reversible: true
+          from: pos
+          to: B+
+      horizontal_reset:
+        what: reset_switch_smd_side
+        where:
+          ref:
+            - matrix_middle_top
+          shift: [1U, 4.75]
+        params:
+          reversible: true
+          from: GND
+          to: RST
