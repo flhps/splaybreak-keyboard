@@ -55,7 +55,7 @@ outlines:
     - what: rectangle
       where:
         - ref: matrix_middle_bottom
-          shift: [-0.5U, 0.085U]
+          shift: [-0.55U, 0.085U]
           rotate: 5
       size: [6.7U, 4.5U]
       fillet: 1
@@ -87,8 +87,8 @@ pcbs:
       mcu:
         what: mcu_nice_nano
         where:
-          - ref: matrix_inner_home
-            shift: [1U + 1.75, 1U + 3.5]
+          - ref: matrix_ring_home
+            shift: [-2.35U, 0.7625U]
             rotate: 0
         params:
           reversible: true
@@ -117,8 +117,8 @@ pcbs:
         what: battery_connector_jst_ph_2
         where:
           ref:
-            - matrix_inner_home
-          shift: [0.75U, -2]
+            - matrix_ring_bottom
+          shift: [-1U, -1.6U]
           rotate: 90
         params:
           reversible: true
@@ -128,8 +128,8 @@ pcbs:
         what: power_switch_smd_side
         where:
           ref:
-            - matrix_middle_top
-          shift: [2U, 5.25]
+            - matrix_ring_top
+          shift: [-1U, 0.55U]
           rotate: 90
         params:
           reversible: true
@@ -139,8 +139,8 @@ pcbs:
         what: reset_switch_smd_side
         where:
           ref:
-            - matrix_middle_top
-          shift: [1U, 4.75]
+            - matrix_ring_top
+          shift: [2.75U, 0.525U]
         params:
           reversible: true
           from: GND
