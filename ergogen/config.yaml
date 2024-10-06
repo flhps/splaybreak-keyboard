@@ -32,13 +32,13 @@ points:
     thumb:
       anchor:
         ref: matrix_index_bottom
-        shift: [0.5U, -1.15U]
+        shift: [0.45U, -1.15U]
       columns:
         tucky:
           key.name: thumb_tucky
           key.splay: -5
         reachy:
-          key.spread: U
+          key.spread: 1U
           key.splay: 0
           key.origin: [-0.5U, -0.7U]
           key.name: thumb_reachy
@@ -94,25 +94,25 @@ pcbs:
           reversible: true
           show_silk_labels: false
           # right side pins
-          P21: matrix_inner_top
-          P20: matrix_inner_home
-          P19: matrix_inner_bottom
-          P18: matrix_inner_top
-          P15: matrix_inner_home
-          P14: matrix_index_home
-          P16: thumb_reachy
-          P10: thumb_tucky
+          P21: matrix_ring_home
+          P20: matrix_ring_bottom
+          P19: matrix_pinky_top
+          P18: matrix_pinky_home
+          P15: matrix_pinky_bottom
+          P14: matrix_outer_home
+          P16: thumb_tucky
+          P10: thumb_reachy
           # left side pins
-          P1: matrix_outer_home
-          P0: matrix_pinky_top
-          P2: matrix_pinky_home
-          P3: matrix_pinky_bottom
-          P4: matrix_ring_top
-          P5: matrix_ring_home
-          P6: matrix_ring_bottom
-          P7: matrix_middle_top
-          P8: matrix_middle_home
-          P9: matrix_middle_bottom
+          P1: matrix_ring_top
+          P0: matrix_middle_bottom
+          P2: matrix_middle_home
+          P3: matrix_middle_top
+          P4: matrix_index_bottom
+          P5: matrix_index_home
+          P6: matrix_index_top
+          P7: matrix_inner_bottom
+          P8: matrix_inner_home
+          P9: matrix_inner_top
       battery_connector:
         what: battery_connector_jst_ph_2
         where:
@@ -145,3 +145,41 @@ pcbs:
           reversible: true
           from: GND
           to: RST
+      mounting_one:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_ring_top
+            shift: [-1U, 0.1U]
+        params:
+          drill: 3.35
+      mounting_two:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_pinky_home
+            shift: [-1U, -1U]
+        params:
+          drill: 3.35
+      mounting_three:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_inner_bottom
+            shift: [0.75U, -0.35U]
+        params:
+          drill: 3.35
+      mounting_four:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_inner_top
+            shift: [0U, 0.85U]
+        params:
+          drill: 3.35
+      version_text:
+        what: utility_text
+        where:
+          - ref: matrix_ring_bottom
+            shift: [0.75U, -1.35U]
+        params:
+          reversible: true
+          height: 2
+          width: 2
+          text: "SplayBreak v1.0.0"
