@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "reversible_split")
-    (date "2024-11-24")
+    (date "2024-11-27")
     (rev "v1.0.0")
     (company "Unknown")
   )
@@ -132,9 +132,8 @@
 (net 48 "MCU1_13")
 (net 49 "MCU1_12")
 (net 50 "pos")
-(net 51 "B-")
-(net 52 "JST1_1")
-(net 53 "JST1_2")
+(net 51 "JST1_1")
+(net 52 "JST1_2")
 
   
         
@@ -1181,22 +1180,6 @@
     ))
         
     
-    (fp_text user "matrix_ring_top" (at -3.262 -13.5 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "RAW" (at 3.262 -13.5 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_ring_top" (at -3.262 -13.5 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "RAW" (at 3.262 -13.5 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
-    
     (pad "23" thru_hole circle (at -7.62 -10.16 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 28 "MCU1_23"))
     (pad "2" thru_hole circle (at 7.62 -10.16 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 29 "MCU1_2"))
       
@@ -1277,22 +1260,6 @@
       ) (width 0) (fill yes))
     ))
         
-    
-    (fp_text user "matrix_middle_bottom" (at -3.262 -10.96 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "GND" (at 3.262 -10.96 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_middle_bottom" (at -3.262 -10.96 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "GND" (at 3.262 -10.96 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
     
     (pad "22" thru_hole circle (at -7.62 -7.619999999999999 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 30 "MCU1_22"))
     (pad "3" thru_hole circle (at 7.62 -7.619999999999999 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 31 "MCU1_3"))
@@ -1375,22 +1342,6 @@
     ))
         
     
-    (fp_text user "GND" (at -3.262 -8.42 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "RST" (at 3.262 -8.42 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "GND" (at -3.262 -8.42 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "RST" (at 3.262 -8.42 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
-    
     (pad "21" thru_hole circle (at -7.62 -5.079999999999999 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 32 "MCU1_21"))
     (pad "4" thru_hole circle (at 7.62 -5.079999999999999 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 33 "MCU1_4"))
       
@@ -1471,22 +1422,6 @@
       ) (width 0) (fill yes))
     ))
         
-    
-    (fp_text user "GND" (at -3.262 -5.88 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "VCC" (at 3.262 -5.88 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "GND" (at -3.262 -5.88 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "VCC" (at 3.262 -5.88 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
     
     (pad "20" thru_hole circle (at -7.62 -2.539999999999999 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 34 "MCU1_20"))
     (pad "5" thru_hole circle (at 7.62 -2.539999999999999 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 35 "MCU1_5"))
@@ -1569,22 +1504,6 @@
     ))
         
     
-    (fp_text user "matrix_middle_home" (at -3.262 -3.34 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "matrix_ring_home" (at 3.262 -3.34 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_middle_home" (at -3.262 -3.34 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "matrix_ring_home" (at 3.262 -3.34 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
-    
     (pad "19" thru_hole circle (at -7.62 0 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 36 "MCU1_19"))
     (pad "6" thru_hole circle (at 7.62 0 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 37 "MCU1_6"))
       
@@ -1665,22 +1584,6 @@
       ) (width 0) (fill yes))
     ))
         
-    
-    (fp_text user "matrix_middle_top" (at -3.262 -0.8000000000000007 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "matrix_ring_bottom" (at 3.262 -0.8000000000000007 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_middle_top" (at -3.262 -0.8000000000000007 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "matrix_ring_bottom" (at 3.262 -0.8000000000000007 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
     
     (pad "18" thru_hole circle (at -7.62 2.540000000000001 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 38 "MCU1_18"))
     (pad "7" thru_hole circle (at 7.62 2.540000000000001 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 39 "MCU1_7"))
@@ -1763,22 +1666,6 @@
     ))
         
     
-    (fp_text user "matrix_index_bottom" (at -3.262 1.7400000000000002 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "matrix_pinky_top" (at 3.262 1.7400000000000002 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_index_bottom" (at -3.262 1.7400000000000002 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "matrix_pinky_top" (at 3.262 1.7400000000000002 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
-    
     (pad "17" thru_hole circle (at -7.62 5.080000000000002 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 40 "MCU1_17"))
     (pad "8" thru_hole circle (at 7.62 5.080000000000002 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 41 "MCU1_8"))
       
@@ -1859,22 +1746,6 @@
       ) (width 0) (fill yes))
     ))
         
-    
-    (fp_text user "matrix_index_home" (at -3.262 4.280000000000001 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "matrix_pinky_home" (at 3.262 4.280000000000001 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_index_home" (at -3.262 4.280000000000001 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "matrix_pinky_home" (at 3.262 4.280000000000001 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
     
     (pad "16" thru_hole circle (at -7.62 7.620000000000001 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 42 "MCU1_16"))
     (pad "9" thru_hole circle (at 7.62 7.620000000000001 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 43 "MCU1_9"))
@@ -1957,22 +1828,6 @@
     ))
         
     
-    (fp_text user "matrix_index_top" (at -3.262 6.82 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "matrix_pinky_bottom" (at 3.262 6.82 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_index_top" (at -3.262 6.82 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "matrix_pinky_bottom" (at 3.262 6.82 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
-    
     (pad "15" thru_hole circle (at -7.62 10.16 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 44 "MCU1_15"))
     (pad "10" thru_hole circle (at 7.62 10.16 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 45 "MCU1_10"))
       
@@ -2053,22 +1908,6 @@
       ) (width 0) (fill yes))
     ))
         
-    
-    (fp_text user "matrix_inner_bottom" (at -3.262 9.36 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "matrix_outer_home" (at 3.262 9.36 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_inner_bottom" (at -3.262 9.36 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "matrix_outer_home" (at 3.262 9.36 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
     
     (pad "14" thru_hole circle (at -7.62 12.7 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 46 "MCU1_14"))
     (pad "11" thru_hole circle (at 7.62 12.7 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 47 "MCU1_11"))
@@ -2151,22 +1990,6 @@
     ))
         
     
-    (fp_text user "matrix_inner_home" (at -3.262 11.899999999999999 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "thumb_tucky" (at 3.262 11.899999999999999 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_inner_home" (at -3.262 11.899999999999999 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "thumb_tucky" (at 3.262 11.899999999999999 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
-    
     (pad "13" thru_hole circle (at -7.62 15.240000000000002 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 48 "MCU1_13"))
     (pad "12" thru_hole circle (at 7.62 15.240000000000002 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 49 "MCU1_12"))
       
@@ -2248,28 +2071,12 @@
     ))
         
     
-    (fp_text user "matrix_inner_top" (at -3.262 14.440000000000001 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (fp_text user "thumb_reachy" (at 3.262 14.440000000000001 180) (layer "F.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-
-    
-    (fp_text user "matrix_inner_top" (at -3.262 14.440000000000001 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-    (fp_text user "thumb_reachy" (at 3.262 14.440000000000001 360) (layer "B.Fab")
-      (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
-    )
-          
     
     
-    
-    (fp_text user "R Jumpers, MCU Up" (at 0 -15.245 180) (layer "F.SilkS")
+    (fp_text user "R Jumpers, MCU Down" (at 0 -15.245 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user "L Jumpers, MCU Up" (at 0 -15.245 180) (layer "B.SilkS")
+    (fp_text user "L Jumpers, MCU Down" (at 0 -15.245 180) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     
@@ -2582,8 +2389,8 @@
         (fp_line (start 2.14 6.36) (end 3.06 6.36) (stroke (width 0.12) (type solid)) (layer "B.SilkS"))
         (fp_line (start 3.06 6.36) (end 3.06 5.36) (stroke (width 0.12) (type solid)) (layer "B.SilkS"))
         
-        (pad "11" thru_hole oval (at -1 0 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 52 "JST1_1"))
-        (pad "12" thru_hole oval (at 1 0 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 53 "JST1_2"))
+        (pad "11" thru_hole oval (at -1 0 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 51 "JST1_1"))
+        (pad "12" thru_hole oval (at 1 0 0) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (net 52 "JST1_2"))
         (pad "21" smd custom (at -1 1.8 180) (size 0.1 0.1) (layers "F.Cu" "F.Mask" "F.Paste")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
@@ -2600,7 +2407,7 @@
                     (fill yes)
                 )
             )
-            (net 52 "JST1_1")
+            (net 51 "JST1_1")
         )
         (pad "31" smd custom (at -1 1.8 180) (size 0.1 0.1) (layers "B.Cu" "B.Mask" "B.Paste")
             (clearance 0.1) (zone_connect 0)
@@ -2618,7 +2425,7 @@
                     (fill yes)
                 )
             )
-            (net 52 "JST1_1")
+            (net 51 "JST1_1")
         )
         (pad "22" smd custom (at 1 1.8 180) (size 0.1 0.1) (layers "F.Cu" "F.Mask" "F.Paste")
             (clearance 0.1) (zone_connect 0)
@@ -2636,7 +2443,7 @@
                     (fill yes)
                 )
             )
-            (net 53 "JST1_2")
+            (net 52 "JST1_2")
         )
         (pad "32" smd custom (at 1 1.8 180) (size 0.1 0.1) (layers "B.Cu" "B.Mask" "B.Paste")
             (clearance 0.1) (zone_connect 0)
@@ -2654,7 +2461,7 @@
                     (fill yes)
                 )
             )
-            (net 53 "JST1_2")
+            (net 52 "JST1_2")
         )
         (pad "1" smd custom (at -1 2.816 180) (size 1.2 0.5) (layers "F.Cu" "F.Mask" "F.Paste") (net 50 "pos")
             (clearance 0.1) (zone_connect 0)
@@ -2690,7 +2497,7 @@
                 )
             )
         )
-        (pad "2" smd custom (at -1 2.816 180) (size 1.2 0.5) (layers "B.Cu" "B.Mask" "B.Paste") (net 51 "B-")
+        (pad "2" smd custom (at -1 2.816 180) (size 1.2 0.5) (layers "B.Cu" "B.Mask" "B.Paste") (net 1 "GND")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2707,7 +2514,7 @@
                 )
             )
         )
-        (pad "2" smd custom (at 1 2.816 180) (size 1.2 0.5) (layers "F.Cu" "F.Mask" "F.Paste") (net 51 "B-")
+        (pad "2" smd custom (at 1 2.816 180) (size 1.2 0.5) (layers "F.Cu" "F.Mask" "F.Paste") (net 1 "GND")
             (clearance 0.1) (zone_connect 0)
             (options (clearance outline) (anchor rect))
             (primitives
@@ -2727,10 +2534,10 @@
         
     )
          
-    (segment (start 197.55435509999998 114.0562782) (end 197.55435509999998 112.2562782) (width 0.25) (layer "F.Cu") (net 52))
-    (segment (start 197.55435509999998 114.0562782) (end 197.55435509999998 112.2562782) (width 0.25) (layer "B.Cu") (net 52))
-    (segment (start 199.55435509999998 114.0562782) (end 199.55435509999998 112.2562782) (width 0.25) (layer "F.Cu") (net 53))
-    (segment (start 199.55435509999998 114.0562782) (end 199.55435509999998 112.2562782) (width 0.25) (layer "B.Cu") (net 53))
+    (segment (start 197.55435509999998 114.0562782) (end 197.55435509999998 112.2562782) (width 0.25) (layer "F.Cu") (net 51))
+    (segment (start 197.55435509999998 114.0562782) (end 197.55435509999998 112.2562782) (width 0.25) (layer "B.Cu") (net 51))
+    (segment (start 199.55435509999998 114.0562782) (end 199.55435509999998 112.2562782) (width 0.25) (layer "F.Cu") (net 52))
+    (segment (start 199.55435509999998 114.0562782) (end 199.55435509999998 112.2562782) (width 0.25) (layer "B.Cu") (net 52))
         
 
   (footprint "ceoloide:power_switch_smd_side"

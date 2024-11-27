@@ -141,7 +141,9 @@ pcbs:
             rotate: 180
         params:
           reversible: true
+          reverse_mount: true
           show_silk_labels: false
+          show_via_labels: false
           # right side pins
           P21: matrix_ring_home
           P20: matrix_ring_bottom
@@ -171,7 +173,7 @@ pcbs:
           rotate: 0
         params:
           reversible: true
-          BAT_N: B-
+          BAT_N: GND
           BAT_P: pos
       on_off_switch:
         what: power_switch_smd_side
