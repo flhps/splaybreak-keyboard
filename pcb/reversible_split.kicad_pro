@@ -260,7 +260,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "wingspan_gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
