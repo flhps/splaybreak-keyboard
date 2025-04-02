@@ -13,51 +13,52 @@ points:
         pinky:
         ring.key:
           stagger: 0.66U
-          splay: -5
-          spread: 1.075U
+          splay: -7
+          spread: 1.1U
         middle.key:
           stagger: 0.25U
           splay: -5
           spread: 1.075U
-        index.key.stagger: -0.5U
-        inner.key.stagger: -0.2U
+        index.key.stagger: -0.4U
+        inner.key.stagger: -0.1U
       rows:
         bottom.padding: U
         home.padding: U
         top.padding: U
-      rotate: 10
+      rotate: 7
       anchor:
         # Shift the PCB slightly to the right and down, otherwise it's weirdly positioned outside of the main sheet in KiCad
         shift: [100, -150]
     thumb:
       anchor:
         ref: matrix_index_bottom
-        shift: [0.75U, -1.25U]
+        shift: [0.45U, -1.15U]
       columns:
         tucky:
           key.name: thumb_tucky
+          key.splay: -5
         reachy:
-          key.spread: U
-          key.splay: -15
+          key.spread: 1U
+          key.splay: 0
           key.origin: [-0.5U, -0.7U]
           key.name: thumb_reachy
-    square_center:
-      anchor:
-        ref: matrix_middle_bottom
-        shift: [0.2U, 0.1U]
 outlines:
   keys:
     - what: rectangle
-      where: -/square_center/
+      where: true
       size: [1U, 1U]
   raw:
     - what: rectangle
-      where: -/square_center/
+      where: true
       size: [1pu, 1pu]
   rect:
     - what: rectangle
-      where: square_center
-      size: [7U, 4.5U]
+      where:
+        - ref: matrix_middle_bottom
+          shift: [-0.55U, 0.085U]
+          rotate: 5
+      size: [6.7U, 4.5U]
+      fillet: 1
   board:
     - name: rect
     - operation: add
@@ -76,7 +77,7 @@ pcbs:
     footprints:
       keys:
         what: mx
-        where: -/square_center/
+        where: true
         params:
           from: GND
           to: "{{name}}"
@@ -86,24 +87,99 @@ pcbs:
       mcu:
         what: mcu_nice_nano
         where:
-          - ref: matrix_inner_home
-            shift: [1U + 3, 1U]
+          - ref: matrix_ring_home
+            shift: [-2.35U, 0.7625U]
             rotate: 0
         params:
-          P7: matrix_pinky_top
-          P18: matrix_ring_top
-          P19: matrix_middle_top
-          P20: matrix_index_top
-          P21: matrix_inner_top
-          P15: matrix_pinky_home
-          P14: matrix_ring_home
-          P16: matrix_middle_home
-          P10: matrix_index_home
-          P1: matrix_inner_home
-          P2: matrix_pinky_bottom
-          P3: matrix_ring_bottom
-          P4: matrix_middle_bottom
-          P5: matrix_index_bottom
-          P6: matrix_inner_bottom
-          P8: thumb_tucky
-          P9: thumb_reachy
+          reversible: true
+          show_silk_labels: false
+          # right side pins
+          P21: matrix_ring_home
+          P20: matrix_ring_bottom
+          P19: matrix_pinky_top
+          P18: matrix_pinky_home
+          P15: matrix_pinky_bottom
+          P14: matrix_outer_home
+          P16: thumb_tucky
+          P10: thumb_reachy
+          # left side pins
+          P1: matrix_ring_top
+          P0: matrix_middle_bottom
+          P2: matrix_middle_home
+          P3: matrix_middle_top
+          P4: matrix_index_bottom
+          P5: matrix_index_home
+          P6: matrix_index_top
+          P7: matrix_inner_bottom
+          P8: matrix_inner_home
+          P9: matrix_inner_top
+      battery_connector:
+        what: battery_connector_jst_ph_2
+        where:
+          ref:
+            - matrix_ring_bottom
+          shift: [-1U, -1.6U]
+          rotate: 90
+        params:
+          reversible: true
+          BAT_N: B-
+          BAT_P: pos
+      on_off_switch:
+        what: power_switch_smd_side
+        where:
+          ref:
+            - matrix_ring_top
+          shift: [-1U, 0.55U]
+          rotate: 90
+        params:
+          reversible: true
+          from: pos
+          to: B+
+      horizontal_reset:
+        what: reset_switch_smd_side
+        where:
+          ref:
+            - matrix_ring_top
+          shift: [2.75U, 0.525U]
+        params:
+          reversible: true
+          from: GND
+          to: RST
+      mounting_one:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_ring_top
+            shift: [-1U, 0.1U]
+        params:
+          drill: 3.35
+      mounting_two:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_pinky_home
+            shift: [-1U, -1U]
+        params:
+          drill: 3.35
+      mounting_three:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_inner_bottom
+            shift: [0.75U, -0.35U]
+        params:
+          drill: 3.35
+      mounting_four:
+        what: mounting_hole_plated
+        where:
+          - ref: matrix_inner_top
+            shift: [0U, 0.85U]
+        params:
+          drill: 3.35
+      version_text:
+        what: utility_text
+        where:
+          - ref: matrix_ring_bottom
+            shift: [0.75U, -1.35U]
+        params:
+          reversible: true
+          height: 2
+          width: 2
+          text: "SplayBreak v1.0.0"
