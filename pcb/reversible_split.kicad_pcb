@@ -335,7 +335,7 @@
 		)
 		(fp_arc
 			(start -2.484999 -0.920001)
-			(mid -1.74436 -2.328061)
+			(mid -1.74436 -2.328062)
 			(end -0.225 -2.8)
 			(stroke
 				(width 0.15)
@@ -2221,7 +2221,7 @@
 		)
 		(fp_arc
 			(start -2.484999 -0.920001)
-			(mid -1.74436 -2.328061)
+			(mid -1.74436 -2.328062)
 			(end -0.225 -2.8)
 			(stroke
 				(width 0.15)
@@ -5175,7 +5175,7 @@
 		)
 		(fp_arc
 			(start 2.28 7.449999)
-			(mid 2.595906 6.487327)
+			(mid 2.595905 6.487326)
 			(end 3.5 6.03)
 			(stroke
 				(width 0.15)
@@ -7845,7 +7845,7 @@
 		)
 		(fp_arc
 			(start -2.484999 -0.920001)
-			(mid -1.74436 -2.328061)
+			(mid -1.74436 -2.328062)
 			(end -0.225 -2.8)
 			(stroke
 				(width 0.15)
@@ -17906,7 +17906,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f7337c48-8c64-4208-88d7-64a3ccb18623")
 	)
-	(gr_text "WingSpan v2.0.0"
+	(gr_text "SplayBreak v2.0.0"
 		(at 158.914987 123.845521 0)
 		(layer "B.SilkS")
 		(uuid "3f721e07-0a35-4865-84e0-2b915cf4274a")
@@ -17920,7 +17920,7 @@
 		)
 	)
 	(gr_text "by jfelixh"
-		(at 157.4 127.8 0)
+		(at 159.2 127.8 0)
 		(layer "B.SilkS")
 		(uuid "c73348fa-2eb9-4aa2-b87c-7f26264506c3")
 		(effects
@@ -17934,7 +17934,7 @@
 		)
 	)
 	(gr_text "by jfelixh"
-		(at 146.4 127.8 0)
+		(at 148.2 127.8 0)
 		(layer "F.SilkS")
 		(uuid "9bbba6e8-e213-4381-9d70-401c8744298a")
 		(effects
@@ -17947,7 +17947,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "WingSpan v2.0.0"
+	(gr_text "SplayBreak v2.0.0"
 		(at 158.914987 123.845521 0)
 		(layer "F.SilkS")
 		(uuid "f0b58371-bd0f-439d-ab0e-86a43d4ed7d4")

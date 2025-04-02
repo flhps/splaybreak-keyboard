@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "reversible_split")
-    (date "2024-11-27")
+    (date "2025-04-02")
     (rev "v1.0.0")
     (company "Unknown")
   )
@@ -2668,7 +2668,7 @@
   )
     
 
-  (gr_text "WingSpan v2.0.0"
+  (gr_text "SplayBreak v2.0.0"
     (at 161.40685509999997 127.4962782 0)
     (layer "F.SilkS" )
     (effects
@@ -2682,7 +2682,7 @@
     )
   )
       
-  (gr_text "WingSpan v2.0.0"
+  (gr_text "SplayBreak v2.0.0"
     (at 161.40685509999997 127.4962782 0)
     (layer "B.SilkS" )
     (effects
