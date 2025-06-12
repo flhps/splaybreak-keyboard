@@ -1,4 +1,6 @@
-# SplayBreak Model B Build Guide
+# Build Guide: SplayBreak Model B
+
+![Model B](/images/splaybreak_model_b.jpg)
 
 This version is a more stylish variant intended for travel. It is a little lighter and more compact, but has a smaller battery. Still, it should last weeks on one charge.
 
@@ -10,10 +12,10 @@ You can order your PCB at services like JLCPCB or PCBWay. Download the gerbers Z
 
 Important Parameters:
 
-- 1.6 mm thickness
+- 1.6mm thickness
 - 2 layers
 
-Remember that 2 PCBs make 1 keybaord.
+Remember that 2 PCBs make 1 keyboard.
 
 ## Parts
 
@@ -23,9 +25,9 @@ These are the parts required for one Keyboard consisting of two halves. As a ref
 - 1x 3D printed case parts for left and right sides (ca. 1€ in material)
 - 2x Pro Micro compatible controller with Bluetooth (ca. 12€)
 - 2x 3.7V 500 mAh LiPo battery model 402030 with 2 pin JST PH 2.0mm plug (ca. 4€)
-- 36x Kailh MX (or Choc V1) Hot Swap sockets (ca. 6€)
-- 36x MX (or Choc V1) switches of preferred type (ca. 25€)
-- 36x MX (or Choc V1) compatible keycaps (ca. 25€)
+- 36x Kailh MX Hot Swap sockets (ca. 6€)
+- 36x MX switches of preferred type (ca. 25€)
+- 36x MX compatible keycaps (ca. 25€)
 - 2x MSK-12C02 SMD toggle switch (ca. 2€)
 - 2x EVQPUC02K SMD tactile switch (ca. 2€)
 - 2x 2 pin JST PH 2.0mm housing (ca. 1€)
@@ -43,7 +45,7 @@ And of course you need solder supplies.
 
 ## Assembly
 
-For each side, take one PCB and make one side the top side.
+Take two PCBs mark opposing sides as the top side. Then, for each PCB:
 
 1. Solder hot swap sockets on the bottom side.
 2. Solder the toggle switch as power switch and the tactile switch as reset button. Put both on the top side.

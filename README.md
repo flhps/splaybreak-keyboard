@@ -1,9 +1,13 @@
 # SplayBreak
 
-_a simple but versatile 36-key split ergonomic keyboard_
+_A simple but versatile 36-key split ergonomic wireless keyboard._
 
-![Model A](/images/splaybreak_model_a.jpg)
+---
+
 ![Model B](/images/splaybreak_model_b.jpg)
+_Model B with MX switches and XDA keycaps_
+![Model A](/images/splaybreak_model_a.jpg)
+_Model A with MX switches and OEM keycaps_
 
 This is a split keyboard, that is heavily inspired by my recent personal dive into the world of open mechanical split keyboards. At the time of writing, I have used these two models on an almost daily basis for over 6 months.
 
@@ -13,13 +17,16 @@ There are two models that use the same PCB and mostly the same build parts:
 
 | Model                  | Hot Swap MX | Hot Swap Choc V1 | Gasket Mount | Battery | Magnetic Access Hatch | Nice Case Buttons |
 | ---------------------- | ----------- | ---------------- | ------------ | ------- | --------------------- | ----------------- |
-| [A](/build-guide-a.md) | ✅          | ✅               | ✅           | 2000mAh | ✅                    |                   |
-| [B](/build-guide-b.md) | ✅          | ✅               |              | 500mAh  |                       | ✅                |
+| [A](/build-guide-a.md) | ✅          | ⚠               | ✅           | 2000mAh | ✅                    |                   |
+| [B](/build-guide-b.md) | ✅          | ⚠               |              | 500mAh  |                       | ✅                |
 
 More information can be found in the individual build guides:
 
 - [SplayBreak Model A](/build-guide-a.md)
 - [SplayBreak Model B](/build-guide-b.md)
+
+> [!WARNING]
+> While the PCB accepts hot swap sockets for Choc V1 switches, the case dimensions are not tested with them.
 
 ## Design Rationale
 
@@ -35,6 +42,8 @@ This project features two different keyboard models, which only differ in assemb
 For repairability, model A has everything socketed, making error search and replacements easier. It is also built to improve sound through a gasket mount. Model B foregoes some of that and becomes more compact and arguably more stylish. There, the controller is soldered directly to the PCB.
 
 ## Firmware and Layout
+
+Since both models have the controller in different orientations, they require different firmware. I have prepared two template repositories:
 
 TODO just reference my repo
 
