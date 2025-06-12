@@ -1,4 +1,4 @@
-# Splaybreak
+# SplayBreak
 
 _a simple but versatile 36-key split ergonomic keyboard_
 
@@ -11,19 +11,19 @@ This is a split keyboard, that is heavily inspired by my recent personal dive in
 
 There are two models that use the same PCB and mostly the same build parts:
 
-| Model | Hot Swap MX | Hot Swap Choc V1 | Gasket Mount | Battery  | Simple Access Hatch | Nice Case Buttons |
-| ----- | ----------- | ---------------- | ------------ | -------- | ------------------- | ----------------- |
-| A     | ✔          | ✔               | ✔           | 2000 mAh | ✔                  |                   |
-| B     | ✔          | ✔               |              | 500 mAh  |                     | ✔                |
+| Model                  | Hot Swap MX | Hot Swap Choc V1 | Gasket Mount | Battery | Magnetic Access Hatch | Nice Case Buttons |
+| ---------------------- | ----------- | ---------------- | ------------ | ------- | --------------------- | ----------------- |
+| [A](/build-guide-a.md) | ✅          | ✅               | ✅           | 2000mAh | ✅                    |                   |
+| [B](/build-guide-b.md) | ✅          | ✅               |              | 500mAh  |                       | ✅                |
 
 More information can be found in the individual build guides:
 
-- [SplayBreak Model A]()
-- [SplayBreak Model B]()
+- [SplayBreak Model A](/build-guide-a.md)
+- [SplayBreak Model B](/build-guide-b.md)
 
 ## Design Rationale
 
-A big focus was to keep this keyboard somewhat simple and cheap. That is why it uses the popular Pro Micro controllers and that limits the number of keys per side to 18 because we want to avoid having to solder diodes. The keyboards are wireless with massive batteries for easier daily use at home and on the go. Since the whole keyboard layout is in the firmware, these can also be used with devices such as phones or tablets.
+A big focus was to keep this keyboard somewhat simple and cheap. That is why it uses the popular Pro Micro controllers and that limits the number of keys per side to 18 because we want to avoid having to solder diodes. The keyboards are wireless with massive batteries for easier daily use at home and on the go. Since the whole keyboard layout is in the firmware, these can also be used with devices such as phones or tablets. While screens can be cool, this design has none because they cost money and reduce battery life.
 
 For flexibility (and cost reduction), the PCB is reversible. It means you need to order less and any PCB you have left can replace one that you accidentally destroyed. Also, the PCB has support for MX switches and Choc v1 switches. That would enable the use of this PCB for a super thin travel option.
 
