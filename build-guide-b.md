@@ -49,8 +49,8 @@ Take two PCBs mark opposing sides as the top side. Then, for each PCB:
 
 1. Solder hot swap sockets on the bottom side.
 2. Solder the toggle switch as power switch and the tactile switch as reset button. Put both on the top side.
-3. Solder the controller on the top side with the USB port toward the PCB edge. Sandwich the included header pin rows between the controller and the PCB with the controller being upside down. The header pin row creates the necessary clearance for the USB port. After soldering, cut off the remaining pin length on top and bottom (max 0.5mm left standing).
-4. Solder the JST housing as a connection point for the battery on the top side.
+3. Solder the controller on the top side with the USB port toward the PCB edge. Sandwich the included header pin rows between the controller and the PCB with the controller being upside down. The header pin row creates the necessary clearance for the USB port. After soldering, cut off the remaining pin length on top and bottom (max 0.5mm left standing). Bridge the solder pads on the bottom side.
+4. Solder the JST housing as a connection point for the battery on the top side. Bridge the solder pads on the bottom side.
 5. Put on the case's key plate and put in switches to connect it to the PCB.
 6. Put the battery in the case top's compartment. Optionally secure it with some non-conductive tape.
 7. Plug the battery connector in and insert the case's power switch in the top case cutout. Put the PCB assembly into the case top without crushing the Battery cable and without shearing off the power switch. This a bit tricky, so take your time.

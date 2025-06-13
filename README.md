@@ -43,9 +43,9 @@ For repairability, model A has everything socketed, making error search and repl
 
 ## Firmware and Layout
 
-Since both models have the controller in different orientations, they require different firmware. I have prepared two template repositories:
+Both models can use the same firmware. I have prepared a template that already contain a usable layout:
 
-TODO
+[zmk-config-splaybreak-template](https://github.com/flhps/zmk-config-splaybreak-template)
 
 ## Open Ideas and TODOs
 

@@ -57,8 +57,8 @@ Take two PCBs mark opposing sides as the top side. Then, for each PCB:
 
 1. Solder hot swap sockets on the bottom side.
 2. Solder the toggle switch as power switch and the tactile switch as reset button. Put both on the bottom side.
-3. Break the header rows to a length of 12 and solder the header rows for the controllers to the bottom side of the PCB. Put a piece of painter's tape over the sockets to prevent solder from dripping down. Lay the controller on the sockets such that the processor chip faces the PCB and put in all the pins, forcing them through the painer's tape. Then, solder the pins to the controller. Cut off the remaining length of the pins to keep the controller as flat as possible. Remove the painter's tape.
-4. Solder the JST housing as a connection point for the battery on the bottom side.
+3. Break the header rows to a length of 12 and solder the header rows for the controllers to the bottom side of the PCB. Put a piece of painter's tape over the sockets to prevent solder from dripping down. Lay the controller on the sockets such that the processor chip faces the PCB and put in all the pins, forcing them through the painer's tape. Then, solder the pins to the controller. Cut off the remaining length of the pins to keep the controller as flat as possible. Remove the painter's tape. Bridge the solder pads on the top side.
+4. Solder the JST housing as a connection point for the battery on the bottom side. Bridge the solder pads on the top side.
 5. Glue the magnets into the round recesses in the access hatches and frames.
 6. Put standoffs into the 4 channels of the case's bottom part and screw them in from the bottom. Put the middle case part in the bottom one.
 7. Cut out a strip of poron foam for each recess in the case's bottom and top part and place them in there.
