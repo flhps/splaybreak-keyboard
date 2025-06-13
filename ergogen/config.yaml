@@ -206,4 +206,17 @@ pcbs:
           reversible: true
           height: 2
           width: 2
+          thickness: 0.4
           text: "SplayBreak v2.0.0"
+      author_text:
+        what: utility_text
+        where:
+          - ref: matrix_middle_bottom
+            shift: [-1.5U, -1.975U]
+        params:
+          reversible: true
+          height: 2
+          width: 2
+          thickness: 0.3
+          italic: true
+          text: "by flhps"

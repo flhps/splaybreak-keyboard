@@ -1,4 +1,4 @@
-# Build Guide: SplayBreak Model B
+# Build Guide: SplayBreak Model A
 
 ![Model A](/images/splaybreak_model_a.jpg)
 

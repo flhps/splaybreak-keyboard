@@ -15,7 +15,7 @@ This is a split keyboard, that is heavily inspired by my recent personal dive in
 
 There are two models that use the same PCB and mostly the same build parts:
 
-| Model                  | Hot Swap MX | Hot Swap Choc V1 | Gasket Mount | Battery | Magnetic Access Hatch | Nice Case Buttons |
+| Model                  | Hot Swap MX | Hot Swap Choc V1 | Gasket Mount | Battery | Magnetic Access Hatch | Nice Buttons and Port |
 | ---------------------- | ----------- | ---------------- | ------------ | ------- | --------------------- | ----------------- |
 | [A](/build-guide-a.md) | ✅          | ⚠               | ✅           | 2000mAh | ✅                    |                   |
 | [B](/build-guide-b.md) | ✅          | ⚠               |              | 500mAh  |                       | ✅                |
