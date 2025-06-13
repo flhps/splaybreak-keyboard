@@ -22,7 +22,7 @@ Remember that 2 PCBs make 1 keyboard.
 These are the parts required for one Keyboard consisting of two halves. As a reference, I included rough pricing as of 2025 (worst-case pricing for minimum purchasable quantity). If you already have supplies, this may be much cheaper:
 
 - 2x PCB (ca. 18€)
-- 1x 3D printed case parts for left and right sides (ca. 2€ in material)
+- 1x 3D printed model A case parts for left and right sides (ca. 2€ in material)
 - 2x Pro Micro compatible controller with Bluetooth (ca. 12€)
 - 4x 2.54mm pitch header row female (ca. 2€)
 - 48x pins harvested from 4 or 5 pin RGB(W) headers by removing the plastic (ca. 2€)
@@ -60,7 +60,7 @@ Take two PCBs mark opposing sides as the top side. Then, for each PCB:
 3. Break the header rows to a length of 12 and solder the header rows for the controllers to the bottom side of the PCB. Put a piece of painter's tape over the sockets to prevent solder from dripping down. Lay the controller on the sockets such that the processor chip faces the PCB and put in all the pins, forcing them through the painer's tape. Then, solder the pins to the controller. Cut off the remaining length of the pins to keep the controller as flat as possible. Remove the painter's tape.
 4. Solder the JST housing as a connection point for the battery on the bottom side.
 5. Glue the magnets into the round recesses in the access hatches and frames.
-6. Put standoffs into the 4 channels of the case's bottom part and screw them in from the bottom.
+6. Put standoffs into the 4 channels of the case's bottom part and screw them in from the bottom. Put the middle case part in the bottom one.
 7. Cut out a strip of poron foam for each recess in the case's bottom and top part and place them in there.
 8. Put the case's key plate on the PCB and insert switches to connect them.
 9. Plug the battery connector in and lay the battery in its compartment in the case's bottom. Then lay the key pate (and PCB) with its tabs on the poron foam.

@@ -45,7 +45,7 @@ For repairability, model A has everything socketed, making error search and repl
 
 Since both models have the controller in different orientations, they require different firmware. I have prepared two template repositories:
 
-TODO just reference my repo
+TODO
 
 ## Open Ideas and TODOs
 

@@ -22,7 +22,7 @@ Remember that 2 PCBs make 1 keyboard.
 These are the parts required for one Keyboard consisting of two halves. As a reference, I included rough pricing as of 2025 (worst-case pricing for minimum purchasable quantity). If you already have supplies, this may be much cheaper:
 
 - 2x PCB (ca. 18€)
-- 1x 3D printed case parts for left and right sides (ca. 1€ in material)
+- 1x 3D printed model B case parts for left and right sides (ca. 1€ in material)
 - 2x Pro Micro compatible controller with Bluetooth (ca. 12€)
 - 2x 3.7V 500 mAh LiPo battery model 402030 with 2 pin JST PH 2.0mm plug (ca. 4€)
 - 36x Kailh MX Hot Swap sockets (ca. 6€)
